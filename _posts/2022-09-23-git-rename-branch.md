@@ -25,7 +25,7 @@ $ git branch -m new-name
 $ git push origin :old-name new-name
 ```
 
-> 关于使用冒号 `:` 来删除分支，可以看 [这篇回答](https://stackoverflow.com/a/7303710)
+> 关于使用冒号 `:` 来删除分支，可以看 [这篇回答](https://stackoverflow.com/a/7303710){:target="_blank"}
 {: .prompt-tip }
 
 ## 3. 将 upstream 重设为 origin 上新的分支
@@ -38,4 +38,4 @@ $ git push origin -u new-name
 
 ## 参考
 
-- [Rename a local and remote branch in git &#8211; Multiple States Knowledge Base](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)
+- [Rename a local and remote branch in git &#8211; Multiple States Knowledge Base](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/){:target="_blank"}
