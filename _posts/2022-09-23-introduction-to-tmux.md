@@ -1,6 +1,7 @@
 ---
 title: '使用 tmux 来管理终端'
 date: 2022-09-23 18:00:00 +0900
+categories: ['技术分享']
 tags: ['terminal', 'tmux']
 img_path: /assets/images/2022-09-23-introduction-to-tmux/
 image:

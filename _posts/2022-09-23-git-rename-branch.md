@@ -1,6 +1,7 @@
 ---
 title: '如何重命名 Git 分支'
 date: 2022-09-23 12:00:00 +0900
+categories: ['技术分享']
 tags: ['git', 'branch']
 ---
 
