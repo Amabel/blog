@@ -263,3 +263,9 @@ export async function fetchTitle(url: string): Promise<string> {
 - 增加对特殊字符的转义
 - 提供多种输出格式，方便拷贝
 - README 要认真写！
+
+## 参考
+
+- [GitHub - zaki-yama/copy-title-and-url-as-markdown](https://github.com/zaki-yama/copy-title-and-url-as-markdown){:target="_blank"}
+- [GitHub - Skn0tt/markdown-link-expander](https://github.com/Skn0tt/markdown-link-expander){:target="_blank"}
+- [Escaping special characters in markdown \| TECH.SAIGONIST.COM](https://tech.saigonist.com/b/code/escaping-special-characters-markdown.html){:target="_blank"}
