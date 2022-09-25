@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>/</id>
+  <id>https://blog.amabel.dev/</id>
   <title>Amabel</title>
   <subtitle>Amabel的小破客</subtitle>
-  <updated>2022-09-25T21:14:38+09:00</updated>
+  <updated>2022-09-25T21:35:06+09:00</updated>
   <author>
     <name>Weibin Luo</name>
-    <uri>/</uri>
+    <uri>https://blog.amabel.dev/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://blog.amabel.dev/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="/"/>
+    href="https://blog.amabel.dev/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
   <rights> © 2022 Weibin Luo </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>用 Storage 来进行前端数据持久化</title>
-    <link href="/posts/persist-data-to-browser-storage/" rel="alternate" type="text/html" title="用 Storage 来进行前端数据持久化" />
+    <link href="https://blog.amabel.dev/posts/persist-data-to-browser-storage/" rel="alternate" type="text/html" title="用 Storage 来进行前端数据持久化" />
     <published>2022-09-25T17:30:00+09:00</published>
   
     <updated>2022-09-25T17:30:00+09:00</updated>
   
-    <id>/posts/persist-data-to-browser-storage/</id>
-    <content src="/posts/persist-data-to-browser-storage/" />
+    <id>https://blog.amabel.dev/posts/persist-data-to-browser-storage/</id>
+    <content src="https://blog.amabel.dev/posts/persist-data-to-browser-storage/" />
     <author>
       <name>Weibin Luo</name>
     </author>
@@ -81,13 +81,13 @@ window.localStorage 中的数据以键值对进...
   
   <entry>
     <title>介绍几个自动生成 Markdown 链接的工具</title>
-    <link href="/posts/generate-mark-down-link/" rel="alternate" type="text/html" title="介绍几个自动生成 Markdown 链接的工具" />
+    <link href="https://blog.amabel.dev/posts/generate-mark-down-link/" rel="alternate" type="text/html" title="介绍几个自动生成 Markdown 链接的工具" />
     <published>2022-09-24T10:30:00+09:00</published>
   
     <updated>2022-09-24T10:30:00+09:00</updated>
   
-    <id>/posts/generate-mark-down-link/</id>
-    <content src="/posts/generate-mark-down-link/" />
+    <id>https://blog.amabel.dev/posts/generate-mark-down-link/</id>
+    <content src="https://blog.amabel.dev/posts/generate-mark-down-link/" />
     <author>
       <name>Weibin Luo</name>
     </author>
@@ -145,13 +145,13 @@ window.localStorage 中的数据以键值对进...
   
   <entry>
     <title>使用 tmux 来管理终端</title>
-    <link href="/posts/introduction-to-tmux/" rel="alternate" type="text/html" title="使用 tmux 来管理终端" />
+    <link href="https://blog.amabel.dev/posts/introduction-to-tmux/" rel="alternate" type="text/html" title="使用 tmux 来管理终端" />
     <published>2022-09-23T18:00:00+09:00</published>
   
     <updated>2022-09-23T18:00:00+09:00</updated>
   
-    <id>/posts/introduction-to-tmux/</id>
-    <content src="/posts/introduction-to-tmux/" />
+    <id>https://blog.amabel.dev/posts/introduction-to-tmux/</id>
+    <content src="https://blog.amabel.dev/posts/introduction-to-tmux/" />
     <author>
       <name>Weibin Luo</name>
     </author>
@@ -201,13 +201,13 @@ tmux...
   
   <entry>
     <title>如何重命名 Git 分支</title>
-    <link href="/posts/git-rename-branch/" rel="alternate" type="text/html" title="如何重命名 Git 分支" />
+    <link href="https://blog.amabel.dev/posts/git-rename-branch/" rel="alternate" type="text/html" title="如何重命名 Git 分支" />
     <published>2022-09-23T12:00:00+09:00</published>
   
     <updated>2022-09-23T12:00:00+09:00</updated>
   
-    <id>/posts/git-rename-branch/</id>
-    <content src="/posts/git-rename-branch/" />
+    <id>https://blog.amabel.dev/posts/git-rename-branch/</id>
+    <content src="https://blog.amabel.dev/posts/git-rename-branch/" />
     <author>
       <name>Weibin Luo</name>
     </author>
@@ -264,13 +264,13 @@ $ git push origin -u new-name
   
   <entry>
     <title>[置顶] 关于小破客</title>
-    <link href="/posts/overview/" rel="alternate" type="text/html" title="[置顶] 关于小破客" />
+    <link href="https://blog.amabel.dev/posts/overview/" rel="alternate" type="text/html" title="[置顶] 关于小破客" />
     <published>2022-09-23T10:00:00+09:00</published>
   
     <updated>2022-09-23T10:00:00+09:00</updated>
   
-    <id>/posts/overview/</id>
-    <content src="/posts/overview/" />
+    <id>https://blog.amabel.dev/posts/overview/</id>
+    <content src="https://blog.amabel.dev/posts/overview/" />
     <author>
       <name>Weibin Luo</name>
     </author>
