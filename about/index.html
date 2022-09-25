@@ -29,12 +29,6 @@
 
   
 
-    
-
-    
-
-  
-
   
 
   
@@ -42,24 +36,25 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Amabel" />
+<meta property="og:title" content="关于我" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Amabel的小破客" />
-<meta property="og:description" content="Amabel的小破客" />
-<link rel="canonical" href="/" />
-<meta property="og:url" content="/" />
+<meta name="description" content="工作经历" />
+<meta property="og:description" content="工作经历" />
+<link rel="canonical" href="/about/" />
+<meta property="og:url" content="/about/" />
 <meta property="og:site_name" content="Amabel" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-25T21:14:38+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Amabel" />
+<meta property="twitter:title" content="关于我" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Amabel的小破客","headline":"Amabel","name":"Weibin Luo","sameAs":["https://github.com/Amabel"],"url":"/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","dateModified":"2022-09-25T21:14:38+09:00","datePublished":"2022-09-25T21:14:38+09:00","description":"工作经历","headline":"关于我","name":"Weibin Luo","sameAs":["https://github.com/Amabel"],"url":"/about/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Amabel
+  <title>关于我 | Amabel
   </title>
 
   <!--
@@ -114,6 +109,9 @@
 
   
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -282,7 +280,7 @@
   <ul class="w-100">
 
     <!-- home -->
-    <li class="nav-item active">
+    <li class="nav-item">
       <a href="/" class="nav-link">
         <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
         <span>HOME</span>
@@ -317,7 +315,7 @@
       </a>
     </li> <!-- .nav-item -->
     
-    <li class="nav-item">
+    <li class="nav-item active">
       <a href="/about/" class="nav-link">
         <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i>
         
@@ -390,8 +388,29 @@
     
 
     
-      <!-- index page -->
-      <span>Home</span>
+
+      
+
+        
+          <span>
+            <a href="/">
+              Home
+            </a>
+          </span>
+
+        
+
+      
+
+        
+
+          
+            <span>About</span>
+          
+
+        
+
+      
 
     
 
@@ -400,7 +419,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      Amabel
+      About
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -438,445 +457,125 @@
 
     
       
+      <h1 class="dynamic-title">
+        关于我
+      </h1>
+      <div class="post-content">
+        
       
-        
-
-
-
-
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list">
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/overview/">[置顶] 关于小破客</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        欢迎来到我的小破客。
-
-这里会记录一些工作中遇到的技术上的问题和解决方法，方便总结和以后查找。
-同时也会分享一些技术性的文章和想法，或是生活中的趣事。
-
-主要还是以写给自己看为主，因此文体可能会有些随意。
-对于一些简单的技术也不会作过多的说明。
-
-此外，由于我本人学习计算机相关的技术主要是通过英语和日语，
-所以在某些专业用语上可能不是非常准确，甚至会直接用英语或是日语代替。
-请大家谅解！
-
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
         <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+  Refactor the HTML structure.
 -->
 
 
 
-
-
-<em class=""
-    data-ts="1663894800"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
-
-
-        <!-- categories -->
-        
-
-      </div>
-
-      
-      <div class="pin">
-        <i class="fas fa-thumbtack fa-fw"></i>
-        <span>Pinned</span>
-      </div>
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/persist-data-to-browser-storage/">用 Storage 来进行前端数据持久化</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        为什么要持久化？
-
-想象一个场景，在一个页面中可以设定主题是深色模式或是浅色模式（就和这个博客左侧菜单下方的按钮一样）。
-
-如果我们不做持久化，那么即使改变了主题颜色，在刷新页面之后由于数据的丢失，又会变回原来的主题。
-这对用户来说很不友好。
-
-为了防止数据丢失，我们可以把一些数据（或设定）存入硬盘或内存中，
-下次需要的时候直接读取并使用这些数据，就能够达到保存用户的数据（或设定）的目的啦。...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
 -->
 
 
 
-
-
-<em class=""
-    data-ts="1664094600"
-    data-df="ll"
-    >
-  Sep 25, 2022
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
-
-      </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/generate-mark-down-link/">介绍几个自动生成 Markdown 链接的工具</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        
-  Markdown 是个好东西。
-
-  — Weibin Luo
-
-
-我遇到了什么问题？
-
-最近在写 Markdown 的时候需要需要写一些外部的链接，
-按我的个人习惯一般采用这样的格式来写：
-
-[{Page Title}]({Url})
-
-
-举个例子：
-
-介绍几个自动生成 Markdown 链接的软件 | Amabel
-
-这么写虽然极具观赏性，但是每次都需要自己去 HTML 的代码中找...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
 -->
 
 
 
+<!-- Add attribute 'hide-bullet' to the checkbox list -->
 
 
-<em class=""
-    data-ts="1663983000"
-    data-df="ll"
-    >
-  Sep 24, 2022
-</em>
 
+<!-- images -->
 
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
 
-      </div>
 
-      
 
-    </div> <!-- .post-meta -->
 
-  </div> <!-- .post-review -->
+<!-- Add header for code snippets -->
 
 
 
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/introduction-to-tmux/">使用 tmux 来管理终端</a>
-    </h1>
+<!-- Create heading anchors -->
 
-    <div class="post-content">
-      <p>
-        
 
 
 
 
-
-        我为什么要用 tmux ？
-
-作为一名（自称的）全栈工程师，在开发中往往会遇到需要在本地启动很多（5~10 个）服务的情况。
-
-如果我们没有办法通过 Docker 来统一管理服务（例如统一启动服务以及日志的集中管理），
-或是需要经常查看各个服务输出的 log 的情况下，
-通常只能开多个终端窗口，或是在一个窗口中开启多个标签页，
-这时终端往往会变成下面这个样子：
-
-
-请注意看顶部，有太多的标签...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1663923600"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
-
-      </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/git-rename-branch/">如何重命名 Git 分支</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。
-
-在队友发现之前可以通过下面的步骤赶紧改回来
-
-
-  如果已经创建了 Pull Request 并且有 Review 之后就不建议再改名字啦，因为 GitHub 在你删除分支之后会自动关闭相关的 PR，再开新 PR 的话之前的 Review 找起来会很麻烦。
-
-
-1. 在本地重命名你的分支
-
-确保你已经在需要修改...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1663902000"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
-
-      </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-</div> <!-- #post-list -->
-
-
-  <!--
-  The paginator for post list on HomgPage.
--->
-
-<ul class="pagination align-items-center mt-4 mb-5 pl-lg-2">
-  <!-- left arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="previous-page">
-      <i class="fas fa-angle-left"></i>
-    </a>
-  </li>
-
-  <!-- page numbers -->
   
   
 
   
 
-    
-    
-    
-    
-    
-
-    
-
-    
-      <!-- show number -->
-      <li class="page-item  active">
-        <a class="page-link btn-box-shadow" href="/">1</a>
-      </li>
-    
+  
+  
 
   
 
-  <!-- mobile pagination -->
-  <li class="page-index align-middle">
-    <span>1</span>
-    <span class="text-muted">/ 1</span>
-  </li>
-
-  <!-- right arrow -->
+  
   
 
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="next-page">
-      <i class="fas fa-angle-right"></i>
-    </a>
-  </li>
+  
 
-</ul> <!-- .pagination -->
+  
+  
 
+  
+
+
+
+
+<!-- Wrap prompt element of blockquote with the <div> tag -->
+
+
+
+
+
+
+
+<!-- return -->
+
+<h1 id="工作经历">工作经历</h1>
+
+<p>2010 年在国内的高中毕业后来到日本东京留学（语言学校、大学本科和研究生），2019 年计算机硕士毕业后进了东京一家初创企业工作。</p>
+
+<p>起初作为新人程序员，主要使用 Angular 和 Ruby on Rails 进行前端和后端的系统开发。
+后来逐渐转型成为全栈工程师（自称）。</p>
+
+<p>目前正在担任研发小组的 Team Leader，团队人数在 8 人左右，主要的工作是需求分析、技术选型、
+架构设计、研发团队的任务分配和进度管理、代码质量管理以及项目的运维。
+（小公司人少，通常一个人需要做很多方面的事情。因此成长很快，也学到了很多技术）</p>
+
+<p>另外，也会进行新人指导，结对编程，以及定期召开分享会来向新人介绍公司的系统和技术。</p>
+
+<h1 id="开源社区">开源社区</h1>
+
+<p>我个人十分热衷于研究最新的编程技术（尤其是在开源社区）。
+工作之余，我会在 GitHub 上找一些有趣的项目来学习。
+当我有了新的想法或者想要拿新的技术来练手时，
+我会做一些小项目并且提交到我的 GitHub 上（public 和 private 两者都有）。</p>
+
+<p>对于 GitHub 上一些热门（Stars 大于 10k）的项目，我也通过自己的方法作出了不同的贡献，
+例如文档翻译、功能开发、软件的安全漏洞的提交以及修复等。并且今后我也会继续关注开源社区。</p>
+
+<p>对我参与过的开源项目或是我个人的项目有兴趣的同学，欢迎参观我的
+<a href="https://github.com/Amabel" target="_blank">GitHub 主页</a>，
+我已经把他们 Pin 在主页上了。（由于数量限制，只能设置一部分）</p>
+
+<h1 id="个人主页">个人主页</h1>
+
+<p>更多关于我的介绍，你可以在我的
+<a href="https://amabel.dev/" target="_blank">个人主页（英文）</a>
+上找到。</p>
+
+<p>: ）</p>
 
 
       
     
+      </div>
     
 
     </div>
@@ -1677,11 +1376,7 @@ SimpleJekyllSearch({
 
 
 
-
-
-
-  
-
+  <!-- image lazy-loading & popup & clipboard -->
   
 
   
@@ -1719,17 +1414,8 @@ SimpleJekyllSearch({
 
 
 
-  
-    
 
-    
-
-  
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/combine/npm/dayjs@1/dayjs.min.js,npm/dayjs@1/locale/en.min.js,npm/dayjs@1/plugin/relativeTime.min.js,npm/dayjs@1/plugin/localizedFormat.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1/dist/jquery.magnific-popup.min.js,npm/lozad/dist/lozad.min.js,npm/clipboard@2/dist/clipboard.min.js"></script>
 
 
 
@@ -1738,7 +1424,9 @@ SimpleJekyllSearch({
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+
+
+<script defer src="/assets/js/dist/page.min.js"></script>
 
 
 

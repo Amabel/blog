@@ -42,24 +42,25 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Amabel" />
+<meta property="og:title" content="用 Storage 来进行前端数据持久化" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Amabel的小破客" />
-<meta property="og:description" content="Amabel的小破客" />
-<link rel="canonical" href="/" />
-<meta property="og:url" content="/" />
+<meta name="description" content="为什么要持久化？" />
+<meta property="og:description" content="为什么要持久化？" />
+<link rel="canonical" href="/posts/persist-data-to-browser-storage/" />
+<meta property="og:url" content="/posts/persist-data-to-browser-storage/" />
 <meta property="og:site_name" content="Amabel" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-25T17:30:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Amabel" />
+<meta property="twitter:title" content="用 Storage 来进行前端数据持久化" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Amabel的小破客","headline":"Amabel","name":"Weibin Luo","sameAs":["https://github.com/Amabel"],"url":"/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-25T17:30:00+09:00","datePublished":"2022-09-25T17:30:00+09:00","description":"为什么要持久化？","headline":"用 Storage 来进行前端数据持久化","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/persist-data-to-browser-storage/"},"url":"/posts/persist-data-to-browser-storage/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Amabel
+  <title>用 Storage 来进行前端数据持久化 | Amabel
   </title>
 
   <!--
@@ -113,7 +114,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css">
+  
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -282,7 +288,7 @@
   <ul class="w-100">
 
     <!-- home -->
-    <li class="nav-item active">
+    <li class="nav-item">
       <a href="/" class="nav-link">
         <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
         <span>HOME</span>
@@ -390,8 +396,33 @@
     
 
     
-      <!-- index page -->
-      <span>Home</span>
+
+      
+
+        
+          <span>
+            <a href="/">
+              Home
+            </a>
+          </span>
+
+        
+
+      
+
+        
+
+      
+
+        
+
+          
+            <span>用 Storage 来进行前端数据持久化</span>
+          
+
+        
+
+      
 
     
 
@@ -400,7 +431,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      Amabel
+      Post
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -439,136 +470,244 @@
     
       
       
-        
-
-
-
-
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list">
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/overview/">[置顶] 关于小破客</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        欢迎来到我的小破客。
-
-这里会记录一些工作中遇到的技术上的问题和解决方法，方便总结和以后查找。
-同时也会分享一些技术性的文章和想法，或是生活中的趣事。
-
-主要还是以写给自己看为主，因此文体可能会有些随意。
-对于一些简单的技术也不会作过多的说明。
-
-此外，由于我本人学习计算机相关的技术主要是通过英语和日语，
-所以在某些专业用语上可能不是非常准确，甚至会直接用英语或是日语代替。
-请大家谅解！
-
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
         <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+  Refactor the HTML structure.
 -->
 
 
 
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
 
 
-<em class=""
-    data-ts="1663894800"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
 
 
-        <!-- categories -->
+
+<!-- Add attribute 'hide-bullet' to the checkbox list -->
+
+
+
+<!-- images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+    
+    
+
+    
+      
         
-
-      </div>
+        
+      
 
       
-      <div class="pin">
-        <i class="fas fa-thumbtack fa-fw"></i>
-        <span>Pinned</span>
-      </div>
       
 
-    </div> <!-- .post-meta -->
+      
+      
+      
 
-  </div> <!-- .post-review -->
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
+
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
+
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
+
+  
+
+  
+  
+
+  
 
 
 
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/persist-data-to-browser-storage/">用 Storage 来进行前端数据持久化</a>
-    </h1>
 
-    <div class="post-content">
-      <p>
+<!-- Wrap prompt element of blockquote with the <div> tag -->
+
+
+
+
+
+
+
+  
+  
+
+  
+
+    
+      
+      
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
         
 
+    
+
+    
+    
+
+    
+
+  
+
+  
+
+
+
+<!-- return -->
 
 
 
 
-        为什么要持久化？
 
-想象一个场景，在一个页面中可以设定主题是深色模式或是浅色模式（就和这个博客左侧菜单下方的按钮一样）。
+<h1 data-toc-skip>用 Storage 来进行前端数据持久化</h1>
 
-如果我们不做持久化，那么即使改变了主题颜色，在刷新页面之后由于数据的丢失，又会变回原来的主题。
-这对用户来说很不友好。
-
-为了防止数据丢失，我们可以把一些数据（或设定）存入硬盘或内存中，
-下次需要的时候直接读取并使用这些数据，就能够达到保存用户的数据（或设定）的目的啦。...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
+<div class="post-meta text-muted">
+    <!-- published date -->
+    <span>
+      Posted
+      <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -580,299 +719,256 @@
 <em class=""
     data-ts="1664094600"
     data-df="ll"
-    >
+    data-toggle="tooltip" data-placement="bottom">
   Sep 25, 2022
 </em>
 
+    </span>
 
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
+    <!-- lastmod date -->
+    
 
-      </div>
+  
+
+  <div class="d-flex justify-content-between">
+    <!-- author -->
+    <span>
+      
+      
 
       
 
-    </div> <!-- .post-meta -->
+      By
 
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/generate-mark-down-link/">介绍几个自动生成 Markdown 链接的工具</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
+      <em>
         
-
-
-
-
-
+          <a href="https://github.com/Amabel">Weibin Luo</a>
         
-  Markdown 是个好东西。
+      </em>
+    </span>
 
-  — Weibin Luo
+    <div>
+      <!-- page views -->
+      
+
+      <!-- read time -->
+      <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
 
 
-我遇到了什么问题？
 
-最近在写 Markdown 的时候需要需要写一些外部的链接，
-按我的个人习惯一般采用这样的格式来写：
-
-[{Page Title}]({Url})
+<!-- words per minute  -->
 
 
-举个例子：
 
-介绍几个自动生成 Markdown 链接的软件 | Amabel
 
-这么写虽然极具观赏性，但是每次都需要自己去 HTML 的代码中找...
-      </p>
+
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom"
+  title="875 words">
+  <em>4 min</em> read</span>
+
     </div>
 
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
+  </div> <!-- .d-flex -->
 
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+</div> <!-- .post-meta -->
 
+<div class="post-content">
+  <h2 id="为什么要持久化"><span class="mr-2">为什么要持久化？</span><a href="#为什么要持久化" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
+<p>想象一个场景，在一个页面中可以设定主题是深色模式或是浅色模式（就和这个博客左侧菜单下方的按钮一样）。</p>
 
+<p>如果我们不做持久化，那么即使改变了主题颜色，在刷新页面之后由于数据的丢失，又会变回原来的主题。
+这对用户来说很不友好。</p>
 
+<p>为了防止数据丢失，我们可以把一些数据（或设定）存入硬盘或内存中，
+下次需要的时候直接读取并使用这些数据，就能够达到保存用户的数据（或设定）的目的啦。</p>
 
-<em class=""
-    data-ts="1663983000"
-    data-df="ll"
-    >
-  Sep 24, 2022
-</em>
+<h2 id="怎么持久化"><span class="mr-2">怎么持久化？</span><a href="#怎么持久化" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
+<p>在 Web 应用中持久化一般可以分为前端持久化和后端持久化，
+前端持久化又有几种方法：</p>
 
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
+<ol>
+  <li><strong>Local Storage</strong></li>
+  <li><strong>Session Storage</strong></li>
+  <li>Cookies</li>
+  <li>IndexedDB</li>
+</ol>
 
-      </div>
+<p>今天主要讲一下 Local Storage 和 Session Storage。</p>
+
+<h3 id="local-storage"><span class="mr-2">Local Storage</span><a href="#local-storage" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p><code class="language-plaintext highlighter-rouge">window.localStorage</code> 中的数据以键值对进行存储，
+在浏览器的普通模式下，Local Storage 的数据会被存储到硬盘中，直到被主动删除。</p>
+
+<p>介绍 4 个常用的 API：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre><span class="c1">// 将 theme 的值设置为 'dark'</span>
+<span class="nx">localStorage</span><span class="p">.</span><span class="nx">setItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">theme</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">dark</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="c1">// 获取 theme 的值</span>
+<span class="kd">const</span> <span class="nx">theme</span> <span class="o">=</span> <span class="nx">localStorage</span><span class="p">.</span><span class="nx">getItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">theme</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="c1">// 删除 theme 键</span>
+<span class="nx">localStorage</span><span class="p">.</span><span class="nx">removeItem</span><span class="p">(</span><span class="dl">'</span><span class="s1">theme</span><span class="dl">'</span><span class="p">);</span>
+
+<span class="c1">// 删除 storage 中所有的键</span>
+<span class="nx">localStorage</span><span class="p">.</span><span class="nx">clear</span><span class="p">();</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>完整的 API 在这里：<a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage" target="_blank">Storage - Web APIs | MDN</a></p>
+
+<h4 id="值得注意的几个点"><span class="mr-2">值得注意的几个点</span><a href="#值得注意的几个点" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ol>
+  <li>建议不要把敏感数据如 Token 放在 Local Storage 中。因为如果网站受到 XSS 攻击可能会导致 Local Storage 中的内容泄露。</li>
+  <li>Local Storage 中的值只能以 string 类型存储，因此如果需要存对象类型，就要自己负责转换和解析 JSON 字符串。</li>
+  <li>接上条，<code class="language-plaintext highlighter-rouge">null</code>，<code class="language-plaintext highlighter-rouge">undefined</code> 等特殊值也会被自动转成 string，因此也需要特殊处理。</li>
+  <li>在隐私（Private 或者 Incognito）模式下，Local Storage 的数据会在所有隐私模式的窗口关闭后被清除。（具体清除的时机请以各个浏览器的实现为准）</li>
+  <li>在隐私模式下，Local Storage 的数据共享模式根据不同的浏览器的实现有所不同。已知的有，Chrome 浏览器中所有的 Tab 都会共享同一个 Local Storage。而在 Safari 浏览器中，每个 Tab 的 Local Storage 都是独立的，它们之间的数据无法共享。</li>
+  <li>可存储的数据大小一般为 5MB 左右。</li>
+</ol>
+
+<h3 id="session-storage"><span class="mr-2">Session Storage</span><a href="#session-storage" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>与 Local Storage 大致相同，主要区别是 Session Storage 生命周期只存在于一个 Session 中，
+每当我们打开一个新的 Tab 时，就会创建一个新的 Session，
+因此不同的 Tab 之间的 Session Storage 无法共享。</p>
+
+<blockquote class="prompt-info"><div>
+  <p>当 Tab 被关闭后，Session Storage 中的数据也会被清除。</p>
+</div></blockquote>
+
+<h3 id="选择合适的-storage"><span class="mr-2">选择合适的 Storage</span><a href="#选择合适的-storage" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>我们可以根据实际需求来选择使用 Local Storage 或是 Session Storage。</p>
+
+<p>以设定主题颜色为例，如果使用 Local Storage，那么即使用户关闭浏览器，
+下次打开时也可以维持上次选择过的主题颜色。</p>
+
+<p>而如果使用 Session Storage，那么只能在刷新页面后维持主题颜色，
+当用户关闭浏览器或是新开一个 Tab 的时候又会变回初始的主题颜色。</p>
+
+<h2 id="参考资料"><span class="mr-2">参考资料</span><a href="#参考资料" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage" target="_blank">Storage - Web APIs | MDN</a></li>
+  <li><a href="https://support.google.com/chrome/answer/9845881" target="_blank">How Chrome Incognito keeps your browsing private - Google Chrome Help</a></li>
+</ul>
+
+</div>
+
+<div class="post-tail-wrapper text-muted">
+
+  <!-- categories -->
+  
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw mr-1"></i>
+    
+      <a href='/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/'>技术分享</a>
+  </div>
+  
+
+  <!-- tags -->
+  
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw mr-1"></i>
+      
+      <a href="/tags/data-persistence/"
+          class="post-tag no-text-decoration" >data persistence</a>
+      
+      <a href="/tags/local-storage/"
+          class="post-tag no-text-decoration" >local storage</a>
+      
+      <a href="/tags/session-storage/"
+          class="post-tag no-text-decoration" >session storage</a>
+      
+  </div>
+  
+
+  <div class="post-tail-bottom
+    d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
+    <div class="license-wrapper">
 
       
 
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/introduction-to-tmux/">使用 tmux 来管理终端</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
         
 
+        This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
 
-
-
-
-        我为什么要用 tmux ？
-
-作为一名（自称的）全栈工程师，在开发中往往会遇到需要在本地启动很多（5~10 个）服务的情况。
-
-如果我们没有办法通过 Docker 来统一管理服务（例如统一启动服务以及日志的集中管理），
-或是需要经常查看各个服务输出的 log 的情况下，
-通常只能开多个终端窗口，或是在一个窗口中开启多个标签页，
-这时终端往往会变成下面这个样子：
-
-
-请注意看顶部，有太多的标签...
-      </p>
+      
     </div>
 
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+    <!--
+ Post sharing snippet
 -->
 
+<div class="share-wrapper">
+  <span class="share-label text-muted mr-1">Share</span>
+  <span class="share-icons">
+    
+    
+    
 
-
-
-
-<em class=""
-    data-ts="1663923600"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
-
-      </div>
-
+    
       
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/git-rename-branch/">如何重命名 Git 分支</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。
-
-在队友发现之前可以通过下面的步骤赶紧改回来
-
-
-  如果已经创建了 Pull Request 并且有 Review 之后就不建议再改名字啦，因为 GitHub 在你删除分支之后会自动关闭相关的 PR，再开新 PR 的话之前的 Review 找起来会很麻烦。
-
-
-1. 在本地重命名你的分支
-
-确保你已经在需要修改...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1663902000"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
-
-      </div>
-
+        <a href="https://twitter.com/intent/tweet?text=%E7%94%A8+Storage+%E6%9D%A5%E8%BF%9B%E8%A1%8C%E5%89%8D%E7%AB%AF%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96+-+Amabel&url=%2Fposts%2Fpersist-data-to-browser-storage%2F" data-toggle="tooltip" data-placement="top"
+          title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fa-fw fab fa-twitter"></i>
+        </a>
+    
       
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-</div> <!-- #post-list -->
-
-
-  <!--
-  The paginator for post list on HomgPage.
--->
-
-<ul class="pagination align-items-center mt-4 mb-5 pl-lg-2">
-  <!-- left arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="previous-page">
-      <i class="fas fa-angle-left"></i>
-    </a>
-  </li>
-
-  <!-- page numbers -->
-  
-  
-
-  
-
+        <a href="https://www.facebook.com/sharer/sharer.php?title=%E7%94%A8+Storage+%E6%9D%A5%E8%BF%9B%E8%A1%8C%E5%89%8D%E7%AB%AF%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96+-+Amabel&u=%2Fposts%2Fpersist-data-to-browser-storage%2F" data-toggle="tooltip" data-placement="top"
+          title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fa-fw fab fa-facebook-square"></i>
+        </a>
     
-    
-    
-    
+      
+        <a href="https://t.me/share/url?url=%2Fposts%2Fpersist-data-to-browser-storage%2F&text=%E7%94%A8+Storage+%E6%9D%A5%E8%BF%9B%E8%A1%8C%E5%89%8D%E7%AB%AF%E6%95%B0%E6%8D%AE%E6%8C%81%E4%B9%85%E5%8C%96+-+Amabel" data-toggle="tooltip" data-placement="top"
+          title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
+          <i class="fa-fw fab fa-telegram"></i>
+        </a>
     
 
-    
+    <i id="copy-link" class="fa-fw fas fa-link small"
+        data-toggle="tooltip" data-placement="top"
+        title="Copy link"
+        data-title-succeed="Link copied successfully!">
+    </i>
 
-    
-      <!-- show number -->
-      <li class="page-item  active">
-        <a class="page-link btn-box-shadow" href="/">1</a>
-      </li>
-    
+  </span>
+</div>
 
-  
 
-  <!-- mobile pagination -->
-  <li class="page-index align-middle">
-    <span>1</span>
-    <span class="text-muted">/ 1</span>
-  </li>
+  </div><!-- .post-tail-bottom -->
 
-  <!-- right arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="next-page">
-      <i class="fas fa-angle-right"></i>
-    </a>
-  </li>
-
-</ul> <!-- .pagination -->
-
+</div><!-- div.post-tail-wrapper -->
 
 
       
@@ -1225,11 +1321,308 @@
     </div>
 
     
+      
+      
+
+
+
+<!-- BS-toc.js will be loaded at medium priority -->
+<script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
+
+<div id="toc-wrapper" class="pl-0 pr-4 mb-5">
+  <div class="panel-heading pl-3 pt-2 mb-2">Contents</div>
+  <nav id="toc" data-toggle="toc"></nav>
+</div>
+
+
+    
   </div>
 
 </div>
 
 <!-- tail -->
+
+<div class="row">
+  <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4">
+    
+      
+      <!--
+ Recommend the other 3 posts according to the tags and categories of the current post,
+ if the number is not enough, use the other latest posts to supplement.
+-->
+
+<!-- The total size of related posts  -->
+
+
+<!-- An random integer that bigger than 0  -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy}  -->
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+<!-- Fill with the other newlest posts  -->
+
+
+
+
+
+  <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
+    <h3 class="pt-2 mt-1 mb-4 ml-1"
+      data-toc-skip>Further Reading</h3>
+    <div class="card-deck mb-4">
+    
+      
+      
+      <div class="card">
+        <a href="/posts/git-rename-branch/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1663902000"
+    data-df="ll"
+    >
+  Sep 23, 2022
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>如何重命名 Git 分支</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。
+
+在队友发现之前可以通过下面的步骤赶紧改回来
+
+
+  如果已经创建了 Pull Request 并且有 Review 之后就不建议再改名字啦，因为 GitHub 在你删除分支之后会自动关闭相关的 PR，再开新 PR 的话之前的 Review 找起来会很麻烦。
+
+
+1. 在本地重命名你的分支
+
+确保你已经在需要修改...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/introduction-to-tmux/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1663923600"
+    data-df="ll"
+    >
+  Sep 23, 2022
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>使用 tmux 来管理终端</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                我为什么要用 tmux ？
+
+作为一名（自称的）全栈工程师，在开发中往往会遇到需要在本地启动很多（5~10 个）服务的情况。
+
+如果我们没有办法通过 Docker 来统一管理服务（例如统一启动服务以及日志的集中管理），
+或是需要经常查看各个服务输出的 log 的情况下，
+通常只能开多个终端窗口，或是在一个窗口中开启多个标签页，
+这时终端往往会变成下面这个样子：
+
+
+请注意看顶部，有太多的标签...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/generate-mark-down-link/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1663983000"
+    data-df="ll"
+    >
+  Sep 24, 2022
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>介绍几个自动生成 Markdown 链接的工具</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                
+  Markdown 是个好东西。
+
+  — Weibin Luo
+
+
+我遇到了什么问题？
+
+最近在写 Markdown 的时候需要需要写一些外部的链接，
+按我的个人习惯一般采用这样的格式来写：
+
+[{Page Title}]({Url})
+
+
+举个例子：
+
+介绍几个自动生成 Markdown 链接的软件 | Amabel
+
+这么写虽然极具观赏性，但是每次都需要自己去 HTML 的代码中找...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+    </div> <!-- .card-deck -->
+  </div> <!-- #related-posts -->
+
+
+    
+      
+      <!--
+  Navigation buttons at the bottom of the post.
+-->
+
+<div class="post-navigation d-flex justify-content-between">
+  
+  <a href="/posts/generate-mark-down-link/" class="btn btn-outline-primary"
+    prompt="Older">
+    <p>介绍几个自动生成 Markdown 链接的工具</p>
+  </a>
+  
+
+  
+  <div class="btn btn-outline-primary disabled"
+    prompt="Newer">
+    <p>-</p>
+  </div>
+  
+
+</div>
+
+    
+      
+      <!--  The comments switcher -->
+
+
+    
+  </div>
+</div>
 
 
 
@@ -1675,6 +2068,52 @@ SimpleJekyllSearch({
 <!-- layout specified -->
 
 
+  
+
+
+
+  <!-- image lazy-loading & popup & clipboard -->
+  
+
+  
+
+
+
+
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1/dist/jquery.magnific-popup.min.js,npm/lozad/dist/lozad.min.js,npm/clipboard@2/dist/clipboard.min.js"></script>
+
+
 
 
 
@@ -1738,7 +2177,7 @@ SimpleJekyllSearch({
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 

@@ -42,24 +42,25 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Amabel" />
+<meta property="og:title" content="如何重命名 Git 分支" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Amabel的小破客" />
-<meta property="og:description" content="Amabel的小破客" />
-<link rel="canonical" href="/" />
-<meta property="og:url" content="/" />
+<meta name="description" content="工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。" />
+<meta property="og:description" content="工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。" />
+<link rel="canonical" href="/posts/git-rename-branch/" />
+<meta property="og:url" content="/posts/git-rename-branch/" />
 <meta property="og:site_name" content="Amabel" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-23T12:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Amabel" />
+<meta property="twitter:title" content="如何重命名 Git 分支" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Amabel的小破客","headline":"Amabel","name":"Weibin Luo","sameAs":["https://github.com/Amabel"],"url":"/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-23T12:00:00+09:00","datePublished":"2022-09-23T12:00:00+09:00","description":"工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。","headline":"如何重命名 Git 分支","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/git-rename-branch/"},"url":"/posts/git-rename-branch/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Amabel
+  <title>如何重命名 Git 分支 | Amabel
   </title>
 
   <!--
@@ -113,7 +114,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css">
+  
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -282,7 +288,7 @@
   <ul class="w-100">
 
     <!-- home -->
-    <li class="nav-item active">
+    <li class="nav-item">
       <a href="/" class="nav-link">
         <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
         <span>HOME</span>
@@ -390,8 +396,33 @@
     
 
     
-      <!-- index page -->
-      <span>Home</span>
+
+      
+
+        
+          <span>
+            <a href="/">
+              Home
+            </a>
+          </span>
+
+        
+
+      
+
+        
+
+      
+
+        
+
+          
+            <span>如何重命名 Git 分支</span>
+          
+
+        
+
+      
 
     
 
@@ -400,7 +431,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      Amabel
+      Post
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -439,348 +470,209 @@
     
       
       
-        
-
-
-
-
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list">
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/overview/">[置顶] 关于小破客</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        欢迎来到我的小破客。
-
-这里会记录一些工作中遇到的技术上的问题和解决方法，方便总结和以后查找。
-同时也会分享一些技术性的文章和想法，或是生活中的趣事。
-
-主要还是以写给自己看为主，因此文体可能会有些随意。
-对于一些简单的技术也不会作过多的说明。
-
-此外，由于我本人学习计算机相关的技术主要是通过英语和日语，
-所以在某些专业用语上可能不是非常准确，甚至会直接用英语或是日语代替。
-请大家谅解！
-
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
         <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+  Refactor the HTML structure.
 -->
 
 
 
-
-
-<em class=""
-    data-ts="1663894800"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
-
-
-        <!-- categories -->
-        
-
-      </div>
-
-      
-      <div class="pin">
-        <i class="fas fa-thumbtack fa-fw"></i>
-        <span>Pinned</span>
-      </div>
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/persist-data-to-browser-storage/">用 Storage 来进行前端数据持久化</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        为什么要持久化？
-
-想象一个场景，在一个页面中可以设定主题是深色模式或是浅色模式（就和这个博客左侧菜单下方的按钮一样）。
-
-如果我们不做持久化，那么即使改变了主题颜色，在刷新页面之后由于数据的丢失，又会变回原来的主题。
-这对用户来说很不友好。
-
-为了防止数据丢失，我们可以把一些数据（或设定）存入硬盘或内存中，
-下次需要的时候直接读取并使用这些数据，就能够达到保存用户的数据（或设定）的目的啦。...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
 -->
 
 
 
-
-
-<em class=""
-    data-ts="1664094600"
-    data-df="ll"
-    >
-  Sep 25, 2022
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
-
-      </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/generate-mark-down-link/">介绍几个自动生成 Markdown 链接的工具</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        
-  Markdown 是个好东西。
-
-  — Weibin Luo
-
-
-我遇到了什么问题？
-
-最近在写 Markdown 的时候需要需要写一些外部的链接，
-按我的个人习惯一般采用这样的格式来写：
-
-[{Page Title}]({Url})
-
-
-举个例子：
-
-介绍几个自动生成 Markdown 链接的软件 | Amabel
-
-这么写虽然极具观赏性，但是每次都需要自己去 HTML 的代码中找...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
 -->
 
 
 
+<!-- Add attribute 'hide-bullet' to the checkbox list -->
 
 
-<em class=""
-    data-ts="1663983000"
-    data-df="ll"
-    >
-  Sep 24, 2022
-</em>
+
+<!-- images -->
 
 
-        <!-- categories -->
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+    
+    
+
+    
+      
         
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
         
+      
 
-      </div>
+      
+      
+
+      
+      
+      
 
       
 
-    </div> <!-- .post-meta -->
+    
+      
 
-  </div> <!-- .post-review -->
+      
+      
 
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/introduction-to-tmux/">使用 tmux 来管理终端</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        我为什么要用 tmux ？
-
-作为一名（自称的）全栈工程师，在开发中往往会遇到需要在本地启动很多（5~10 个）服务的情况。
-
-如果我们没有办法通过 Docker 来统一管理服务（例如统一启动服务以及日志的集中管理），
-或是需要经常查看各个服务输出的 log 的情况下，
-通常只能开多个终端窗口，或是在一个窗口中开启多个标签页，
-这时终端往往会变成下面这个样子：
-
-
-请注意看顶部，有太多的标签...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1663923600"
-    data-df="ll"
-    >
-  Sep 23, 2022
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
-
-      </div>
+      
+      
+      
 
       
 
-    </div> <!-- .post-meta -->
+    
+      
 
-  </div> <!-- .post-review -->
+      
+      
+
+      
+      
+      
+
+      
+
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
 
 
 
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/git-rename-branch/">如何重命名 Git 分支</a>
-    </h1>
 
-    <div class="post-content">
-      <p>
+<!-- Wrap prompt element of blockquote with the <div> tag -->
+
+
+
+
+
+
+
+  
+  
+
+  
+
+    
+      
+      
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
         
 
+    
+
+    
+    
+
+    
+
+  
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+
+    
+
+    
+    
+
+    
+
+  
+
+  
+
+
+
+<!-- return -->
 
 
 
 
-        工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。
 
-在队友发现之前可以通过下面的步骤赶紧改回来
+<h1 data-toc-skip>如何重命名 Git 分支</h1>
 
-
-  如果已经创建了 Pull Request 并且有 Review 之后就不建议再改名字啦，因为 GitHub 在你删除分支之后会自动关闭相关的 PR，再开新 PR 的话之前的 Review 找起来会很麻烦。
-
-
-1. 在本地重命名你的分支
-
-确保你已经在需要修改...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
+<div class="post-meta text-muted">
+    <!-- published date -->
+    <span>
+      Posted
+      <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -792,87 +684,202 @@
 <em class=""
     data-ts="1663902000"
     data-df="ll"
-    >
+    data-toggle="tooltip" data-placement="bottom">
   Sep 23, 2022
 </em>
 
+    </span>
 
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            技术分享
-          </span>
-        
+    <!-- lastmod date -->
+    
 
-      </div>
+  
+
+  <div class="d-flex justify-content-between">
+    <!-- author -->
+    <span>
+      
+      
 
       
 
-    </div> <!-- .post-meta -->
+      By
 
-  </div> <!-- .post-review -->
+      <em>
+        
+          <a href="https://github.com/Amabel">Weibin Luo</a>
+        
+      </em>
+    </span>
+
+    <div>
+      <!-- page views -->
+      
+
+      <!-- read time -->
+      <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
 
 
 
-</div> <!-- #post-list -->
+<!-- words per minute  -->
 
 
-  <!--
-  The paginator for post list on HomgPage.
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom"
+  title="252 words">
+  <em>1 min</em> read</span>
+
+    </div>
+
+  </div> <!-- .d-flex -->
+
+</div> <!-- .post-meta -->
+
+<div class="post-content">
+  <p>工作中经常会遇到分支已经推到远程了之后发现命名有错误，需要修改分支名字的情况。</p>
+
+<p>在队友发现之前可以通过下面的步骤赶紧改回来</p>
+
+<blockquote class="prompt-warning"><div>
+  <p>如果已经创建了 Pull Request 并且有 Review 之后就不建议再改名字啦，因为 GitHub 在你删除分支之后会自动关闭相关的 PR，再开新 PR 的话之前的 Review 找起来会很麻烦。</p>
+</div></blockquote>
+
+<h2 id="1-在本地重命名你的分支"><span class="mr-2">1. 在本地重命名你的分支</span><a href="#1-在本地重命名你的分支" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>确保你已经在需要修改名字的分支上</p>
+
+<div class="language-shell highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>git branch <span class="nt">-m</span> new-name
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="2-删除远程分支并推送重命名后的分支"><span class="mr-2">2. 删除远程分支，并推送重命名后的分支</span><a href="#2-删除远程分支并推送重命名后的分支" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="language-shell highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>git push origin :old-name new-name
+</pre></td></tr></tbody></table></code></div></div>
+
+<blockquote class="prompt-tip"><div>
+  <p>关于使用冒号 <code class="language-plaintext highlighter-rouge">:</code> 来删除分支，可以看 <a href="https://stackoverflow.com/a/7303710" target="_blank">这篇回答</a></p>
+</div></blockquote>
+
+<h2 id="3-将-upstream-重设为-origin-上新的分支"><span class="mr-2">3. 将 upstream 重设为 origin 上新的分支</span><a href="#3-将-upstream-重设为-origin-上新的分支" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="language-shell highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>git push origin <span class="nt">-u</span> new-name
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>设定完成之后就可以正常使用啦。</p>
+
+<h2 id="参考资料"><span class="mr-2">参考资料</span><a href="#参考资料" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li><a href="https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/" target="_blank">Rename a local and remote branch in git – Multiple States Knowledge Base</a></li>
+</ul>
+
+</div>
+
+<div class="post-tail-wrapper text-muted">
+
+  <!-- categories -->
+  
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw mr-1"></i>
+    
+      <a href='/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/'>技术分享</a>
+  </div>
+  
+
+  <!-- tags -->
+  
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw mr-1"></i>
+      
+      <a href="/tags/git/"
+          class="post-tag no-text-decoration" >git</a>
+      
+      <a href="/tags/branch/"
+          class="post-tag no-text-decoration" >branch</a>
+      
+  </div>
+  
+
+  <div class="post-tail-bottom
+    d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
+    <div class="license-wrapper">
+
+      
+
+        
+
+        This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+
+      
+    </div>
+
+    <!--
+ Post sharing snippet
 -->
 
-<ul class="pagination align-items-center mt-4 mb-5 pl-lg-2">
-  <!-- left arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="previous-page">
-      <i class="fas fa-angle-left"></i>
-    </a>
-  </li>
-
-  <!-- page numbers -->
-  
-  
-
-  
-
-    
-    
+<div class="share-wrapper">
+  <span class="share-label text-muted mr-1">Share</span>
+  <span class="share-icons">
     
     
     
 
     
-
+      
+        <a href="https://twitter.com/intent/tweet?text=%E5%A6%82%E4%BD%95%E9%87%8D%E5%91%BD%E5%90%8D+Git+%E5%88%86%E6%94%AF+-+Amabel&url=%2Fposts%2Fgit-rename-branch%2F" data-toggle="tooltip" data-placement="top"
+          title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fa-fw fab fa-twitter"></i>
+        </a>
     
-      <!-- show number -->
-      <li class="page-item  active">
-        <a class="page-link btn-box-shadow" href="/">1</a>
-      </li>
+      
+        <a href="https://www.facebook.com/sharer/sharer.php?title=%E5%A6%82%E4%BD%95%E9%87%8D%E5%91%BD%E5%90%8D+Git+%E5%88%86%E6%94%AF+-+Amabel&u=%2Fposts%2Fgit-rename-branch%2F" data-toggle="tooltip" data-placement="top"
+          title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fa-fw fab fa-facebook-square"></i>
+        </a>
+    
+      
+        <a href="https://t.me/share/url?url=%2Fposts%2Fgit-rename-branch%2F&text=%E5%A6%82%E4%BD%95%E9%87%8D%E5%91%BD%E5%90%8D+Git+%E5%88%86%E6%94%AF+-+Amabel" data-toggle="tooltip" data-placement="top"
+          title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
+          <i class="fa-fw fab fa-telegram"></i>
+        </a>
     
 
-  
+    <i id="copy-link" class="fa-fw fas fa-link small"
+        data-toggle="tooltip" data-placement="top"
+        title="Copy link"
+        data-title-succeed="Link copied successfully!">
+    </i>
 
-  <!-- mobile pagination -->
-  <li class="page-index align-middle">
-    <span>1</span>
-    <span class="text-muted">/ 1</span>
-  </li>
+  </span>
+</div>
 
-  <!-- right arrow -->
-  
 
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="next-page">
-      <i class="fas fa-angle-right"></i>
-    </a>
-  </li>
+  </div><!-- .post-tail-bottom -->
 
-</ul> <!-- .pagination -->
-
+</div><!-- div.post-tail-wrapper -->
 
 
       
@@ -1225,11 +1232,307 @@
     </div>
 
     
+      
+      
+
+
+
+<!-- BS-toc.js will be loaded at medium priority -->
+<script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
+
+<div id="toc-wrapper" class="pl-0 pr-4 mb-5">
+  <div class="panel-heading pl-3 pt-2 mb-2">Contents</div>
+  <nav id="toc" data-toggle="toc"></nav>
+</div>
+
+
+    
   </div>
 
 </div>
 
 <!-- tail -->
+
+<div class="row">
+  <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4">
+    
+      
+      <!--
+ Recommend the other 3 posts according to the tags and categories of the current post,
+ if the number is not enough, use the other latest posts to supplement.
+-->
+
+<!-- The total size of related posts  -->
+
+
+<!-- An random integer that bigger than 0  -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy}  -->
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+<!-- Fill with the other newlest posts  -->
+
+
+
+
+
+  <div id="related-posts" class="mt-5 mb-2 mb-sm-4">
+    <h3 class="pt-2 mt-1 mb-4 ml-1"
+      data-toc-skip>Further Reading</h3>
+    <div class="card-deck mb-4">
+    
+      
+      
+      <div class="card">
+        <a href="/posts/introduction-to-tmux/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1663923600"
+    data-df="ll"
+    >
+  Sep 23, 2022
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>使用 tmux 来管理终端</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                我为什么要用 tmux ？
+
+作为一名（自称的）全栈工程师，在开发中往往会遇到需要在本地启动很多（5~10 个）服务的情况。
+
+如果我们没有办法通过 Docker 来统一管理服务（例如统一启动服务以及日志的集中管理），
+或是需要经常查看各个服务输出的 log 的情况下，
+通常只能开多个终端窗口，或是在一个窗口中开启多个标签页，
+这时终端往往会变成下面这个样子：
+
+
+请注意看顶部，有太多的标签...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/generate-mark-down-link/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1663983000"
+    data-df="ll"
+    >
+  Sep 24, 2022
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>介绍几个自动生成 Markdown 链接的工具</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                
+  Markdown 是个好东西。
+
+  — Weibin Luo
+
+
+我遇到了什么问题？
+
+最近在写 Markdown 的时候需要需要写一些外部的链接，
+按我的个人习惯一般采用这样的格式来写：
+
+1
+[{Page Title}]({Url})
+
+
+举个例子：
+
+介绍几个自动生成 Markdown 链接的软件 | Amabel
+
+这么写虽然极具观赏性，但是每次都需要自己去 HTML 的代码...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/persist-data-to-browser-storage/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1664094600"
+    data-df="ll"
+    >
+  Sep 25, 2022
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>用 Storage 来进行前端数据持久化</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                为什么要持久化？
+
+想象一个场景，在一个页面中可以设定主题是深色模式或是浅色模式（就和这个博客左侧菜单下方的按钮一样）。
+
+如果我们不做持久化，那么即使改变了主题颜色，在刷新页面之后由于数据的丢失，又会变回原来的主题。
+这对用户来说很不友好。
+
+为了防止数据丢失，我们可以把一些数据（或设定）存入硬盘或内存中，
+下次需要的时候直接读取并使用这些数据，就能够达到保存用户的数据（或设定）的目的啦。...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+    </div> <!-- .card-deck -->
+  </div> <!-- #related-posts -->
+
+
+    
+      
+      <!--
+  Navigation buttons at the bottom of the post.
+-->
+
+<div class="post-navigation d-flex justify-content-between">
+  
+  <a href="/posts/overview/" class="btn btn-outline-primary"
+    prompt="Older">
+    <p>[置顶] 关于小破客</p>
+  </a>
+  
+
+  
+  <a href="/posts/introduction-to-tmux/" class="btn btn-outline-primary"
+    prompt="Newer">
+    <p>使用 tmux 来管理终端</p>
+  </a>
+  
+
+</div>
+
+    
+      
+      <!--  The comments switcher -->
+
+
+    
+  </div>
+</div>
 
 
 
@@ -1675,6 +1978,52 @@ SimpleJekyllSearch({
 <!-- layout specified -->
 
 
+  
+
+
+
+  <!-- image lazy-loading & popup & clipboard -->
+  
+
+  
+
+
+
+
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1/dist/jquery.magnific-popup.min.js,npm/lozad/dist/lozad.min.js,npm/clipboard@2/dist/clipboard.min.js"></script>
+
+
 
 
 
@@ -1738,7 +2087,7 @@ SimpleJekyllSearch({
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
