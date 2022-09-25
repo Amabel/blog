@@ -17,7 +17,7 @@ tags: ['data persistence', 'local storage', 'session storage']
 
 ## 怎么持久化？
 
-在 Web 应用中持久化可以分为前端和后端，
+在 Web 应用中持久化一般可以分为前端持久化和后端持久化，
 前端持久化又有几种方法：
 
 1. **Local Storage**
