@@ -37,6 +37,6 @@ $ git push origin -u new-name
 
 设定完成之后就可以正常使用啦。
 
-## 参考
+## 参考资料
 
 - [Rename a local and remote branch in git &#8211; Multiple States Knowledge Base](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/){:target="_blank"}

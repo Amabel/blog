@@ -146,7 +146,7 @@ _切换 session、window 和 pane 的界面_
 
 完整的特性可以看 [这里](https://github.com/gpakosz/.tmux#features){:target="_blank"}
 
-### 参考
+### 参考资料
 
 - [GitHub - tmux/tmux: tmux source code](https://github.com/tmux/tmux){:target="_blank"}
 - [Tmux Cheat Sheet & Quick Reference](https://tmuxcheatsheet.com/){:target="_blank"}

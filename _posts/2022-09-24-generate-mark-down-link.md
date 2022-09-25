@@ -264,7 +264,7 @@ export async function fetchTitle(url: string): Promise<string> {
 - 提供多种输出格式，方便拷贝
 - README 要认真写！
 
-## 参考
+## 参考资料
 
 - [GitHub - zaki-yama/copy-title-and-url-as-markdown](https://github.com/zaki-yama/copy-title-and-url-as-markdown){:target="_blank"}
 - [GitHub - Skn0tt/markdown-link-expander](https://github.com/Skn0tt/markdown-link-expander){:target="_blank"}

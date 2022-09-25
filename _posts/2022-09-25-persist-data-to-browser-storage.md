@@ -1,6 +1,6 @@
 ---
 title: '用 Storage 来进行前端数据持久化'
-date: 2022-09-25 12:30:00 +0900
+date: 2022-09-25 17:30:00 +0900
 categories: ['技术分享']
 tags: ['data persistence', 'local storage', 'session storage']
 ---
@@ -12,8 +12,8 @@ tags: ['data persistence', 'local storage', 'session storage']
 如果我们不做持久化，那么即使改变了主题颜色，在刷新页面之后由于数据的丢失，又会变回原来的主题。
 这对用户来说很不友好。
 
-为了防止数据丢失，我们把一些数据（或设定）存入硬盘或内存中，
-下次需要的时候直接读取并使用这些数据，就可以达到保存用户的数据（或设定）的目的啦。
+为了防止数据丢失，我们可以把一些数据（或设定）存入硬盘或内存中，
+下次需要的时候直接读取并使用这些数据，就能够达到保存用户的数据（或设定）的目的啦。
 
 ## 怎么持久化？
 
@@ -78,7 +78,7 @@ localStorage.clear();
 而如果使用 Session Storage，那么只能在刷新页面后维持主题颜色，
 当用户关闭浏览器或是新开一个 Tab 的时候又会变回初始的主题颜色。
 
-## 参考
+## 参考资料
 
 - [Storage - Web APIs \| MDN](https://developer.mozilla.org/en-US/docs/Web/API/Storage){:target="_blank"}
 - [How Chrome Incognito keeps your browsing private - Google Chrome Help](https://support.google.com/chrome/answer/9845881){:target="_blank"}
