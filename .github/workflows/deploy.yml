@@ -13,6 +13,7 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.7
+        bundler-cache: true
     - name: bundle install
       run: |
         bundle config set path 'vendor/bundle'
