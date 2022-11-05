@@ -134,8 +134,8 @@ base64UrlDecode('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9')
 
 ## 参考资料
 
-- [JWT详解_baobao555#的博客-CSDN博客_jwt](https://blog.csdn.net/weixin_45070175/article/details/118559272)
-- [Signing and Validating JSON Web Tokens (JWT) For Everyone](https://dev.to/kimmaida/signing-and-validating-json-web-tokens-jwt-for-everyone-25fb)
-- [RFC 7519: JSON Web Token (JWT)](https://www.rfc-editor.org/rfc/rfc7519#section-5.1)
-- [How to Explain Public-Key Cryptography and Digital Signatures to Non-Techies](https://auth0.com/blog/how-to-explain-public-key-cryptography-digital-signatures-to-anyone/)
-- [jwt - RS256 vs HS256: What's the difference? - Stack Overflow](https://stackoverflow.com/questions/39239051/rs256-vs-hs256-whats-the-difference)
+- [JWT详解_baobao555#的博客-CSDN博客_jwt](https://blog.csdn.net/weixin_45070175/article/details/118559272){:target="_blank"}
+- [Signing and Validating JSON Web Tokens (JWT) For Everyone](https://dev.to/kimmaida/signing-and-validating-json-web-tokens-jwt-for-everyone-25fb){:target="_blank"}
+- [RFC 7519: JSON Web Token (JWT)](https://www.rfc-editor.org/rfc/rfc7519#section-5.1){:target="_blank"}
+- [How to Explain Public-Key Cryptography and Digital Signatures to Non-Techies](https://auth0.com/blog/how-to-explain-public-key-cryptography-digital-signatures-to-anyone/){:target="_blank"}
+- [jwt - RS256 vs HS256: What's the difference? - Stack Overflow](https://stackoverflow.com/questions/39239051/rs256-vs-hs256-whats-the-difference){:target="_blank"}
