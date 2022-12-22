@@ -12,7 +12,7 @@ published: true
 
 |Repository Name|Keywords|Last Updated|Note|
 |-|-|-|-|
-|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2022/12/20|基于 Tailwind 的 UI 组件库|
+|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2022/12/22|基于 Tailwind 的 UI 组件库|
 |[atomiks/tippyjs](https://github.com/atomiks/tippyjs){:target="_blank"}|`ui`,`tooltip`,`dropdown`|2022/10/30|提示标签|
 |[floating-ui/floating-ui](https://github.com/floating-ui/floating-ui){:target="_blank"}|`ui`,`anchor`|2022/12/22|实现各种组件的定位、漂浮效果|
 |[notiflix/Notiflix](https://github.com/notiflix/Notiflix){:target="_blank"}|`ui`,`alert`,`notification`|2022/11/29|通知，加载，提示框等方案|
@@ -20,7 +20,7 @@ published: true
 |[fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs){:target="_blank"}|`ui`,`image`|2022/12/22|图像裁剪|
 |[wagerfield/parallax](https://github.com/wagerfield/parallax){:target="_blank"}|`ui`,`image`,`animation`|2022/09/14|使用陀螺仪或鼠标生成视差特效|
 |[mattboldt/typed.js](https://github.com/mattboldt/typed.js){:target="_blank"}|`ui`,`typing`,`animation`|2022/12/10|打字机特效|
-|[nolimits4web/swiper](https://github.com/nolimits4web/swiper){:target="_blank"}|`ui`,`slide`|2022/12/21|幻灯片效果|
+|[nolimits4web/swiper](https://github.com/nolimits4web/swiper){:target="_blank"}|`ui`,`slide`|2022/12/22|幻灯片效果|
 |[kenwheeler/slick](https://github.com/kenwheeler/slick){:target="_blank"}|`ui`,`slide`,`carousel`|2022/11/16|幻灯片效果|
 |[slidevjs/slidev](https://github.com/slidevjs/slidev){:target="_blank"}|`ui`,`slide`|2022/12/20|幻灯片效果|
 |[sindresorhus/screenfull](https://github.com/sindresorhus/screenfull){:target="_blank"}|`ui`,`full screen`|2022/07/08|全屏显示|
@@ -38,9 +38,9 @@ published: true
 |[niklasvh/html2canvas](https://github.com/niklasvh/html2canvas){:target="_blank"}|`ui`,`html`,`canvas`|2022/12/08|将 HTML 转换为 Canvas。用于保存或展示|
 |[ustbhuangyi/better-scroll](https://github.com/ustbhuangyi/better-scroll){:target="_blank"}|`ui`,`scroll`|2022/12/10|移动端的页面滑动增强|
 |[d3/d3](https://github.com/d3/d3){:target="_blank"}|`ui`,`data`,`chart`|2022/12/20|根据数据生成图表|
-|[chartjs/Chart.js](https://github.com/chartjs/Chart.js){:target="_blank"}|`ui`,`data`,`chart`|2022/12/20|图表生成|
+|[chartjs/Chart.js](https://github.com/chartjs/Chart.js){:target="_blank"}|`ui`,`data`,`chart`|2022/12/22|图表生成|
 |[apache/echarts](https://github.com/apache/echarts){:target="_blank"}|`ui`,`data`,`chart`|2022/12/22|图表生成|
-|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2022/12/21|PDF 阅读器|
+|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2022/12/22|PDF 阅读器|
 |[zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js){:target="_blank"}|`clipboard`|2022/12/12|剪贴板|
 |[js-cookie/js-cookie](https://github.com/js-cookie/js-cookie){:target="_blank"}|`cookie`|2022/10/27|Cookie 的使用|
 |[eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js){:target="_blank"}|`file`,`save`|2022/12/03|保存为本地文件|
@@ -65,11 +65,11 @@ published: true
 |[justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js){:target="_blank"}|`face detection`,`computer vision`|2022/12/06|面部识别|
 |[mpetroff/pannellum](https://github.com/mpetroff/pannellum){:target="_blank"}|`image`,`panorama`,`3d`|2022/12/18|根据图片生成全景模式|
 |[DIYgod/DPlayer](https://github.com/DIYgod/DPlayer){:target="_blank"}|`video player`,`media`|2022/12/14|视频播放器。可以实现弹幕功能|
-|[videojs/video.js](https://github.com/videojs/video.js){:target="_blank"}|`video player`,`media`|2022/12/20|视频播放器|
+|[videojs/video.js](https://github.com/videojs/video.js){:target="_blank"}|`video player`,`media`|2022/12/22|视频播放器|
 |[sampotts/plyr](https://github.com/sampotts/plyr){:target="_blank"}|`video player`,`media`|2022/12/02|视频播放器|
 |[BMSVieira/moovie.js](https://github.com/BMSVieira/moovie.js){:target="_blank"}|`video player`,`media`|2022/06/26|又一个视频播放器|
 |[goldfire/howler.js](https://github.com/goldfire/howler.js){:target="_blank"}|`audio player`,`media`|2022/12/14|音频播放器|
-|[naptha/tesseract.js](https://github.com/naptha/tesseract.js){:target="_blank"}|`ocr`,`image`,`text`|2022/12/20|OCR，各种语言的文字提取|
+|[naptha/tesseract.js](https://github.com/naptha/tesseract.js){:target="_blank"}|`ocr`,`image`,`text`|2022/12/22|OCR，各种语言的文字提取|
 |[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2022/12/22|生成可互动的地图|
 |[Leaflet/Leaflet](https://github.com/Leaflet/Leaflet){:target="_blank"}|`ui`,`maps`|2022/12/22|移动端友好的地图|
 |[jakubfiala/atrament.js](https://github.com/jakubfiala/atrament.js){:target="_blank"}|`ui`,`canvas`,`drawing`|2022/12/05|写字板，画图板|
@@ -116,7 +116,7 @@ published: true
 |-|-|-|-|
 |[KroneCorylus/ngx-colors](https://github.com/KroneCorylus/ngx-colors){:target="_blank"}|`ui`,`color`,`picker`|2022/12/05|颜色选择器|
 |[swimlane/ngx-charts](https://github.com/swimlane/ngx-charts){:target="_blank"}|`ui`,`chart`|2022/12/15|图表生成|
-|[NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd){:target="_blank"}|`ui`,`component`|2022/12/21|基于 Ant Design 的 UI 组件库|
+|[NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd){:target="_blank"}|`ui`,`component`|2022/12/22|基于 Ant Design 的 UI 组件库|
 |[angular/components](https://github.com/angular/components){:target="_blank"}|`ui`,`component`|2022/12/22|基于 Material Design 的 UI 组件库|
 |[ngrx/platform](https://github.com/ngrx/platform){:target="_blank"}|`state`,`store`,`data`|2022/12/22|状态管理，数据共享，存储|
 |[angular/angularfire](https://github.com/angular/angularfire){:target="_blank"}|`firebase`|2022/12/16|Firebase 的封装|
