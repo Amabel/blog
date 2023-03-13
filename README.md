@@ -5,9 +5,23 @@ Welcome to my blog. This blog is built with [Jekyll](https://jekyllrb.com/) and 
 
 ## Local Development
 
+### Install Dependencies
+
+```shell
+$ bundle install
 ```
+
+### Start Application
+
+```shell
 $ bundle exec jekyll s --livereload
 ```
+
+### Upgrade `jekyll-theme-chirpy`
+
+1. Replace content in [Gemfile](./Gemfile) with [chirpy-starter
+](https://github.com/cotes2020/chirpy-starter/blob/main/Gemfile) 
+2. Run `bundle install`
 
 ## License
 
