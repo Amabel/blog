@@ -1,8 +1,11 @@
-#!/bin/bash
+#!/bin/zsh
+
+sudo apt update && sudo apt install peco
 
 # Install Dotfiles
-git clone --depth=1 https://github.com/Amabel/dotfiles.git /workspaces/dotfiles
-rm -rf /workspaces/dotfiles/.git /workspaces/dotfiles/README.md
-mv -f /workspaces/dotfiles/{.,}* ~
-rm -rf /workspaces/dotfiles
+echo "Setting up dotfiles..."
+
+wget https://raw.githubusercontent.com/Amabel/dotfiles-for-dev-container/master/.zshrc -O ~/.zshrc
 source ~/.zshrc
+
+git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open

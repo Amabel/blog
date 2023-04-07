@@ -12,7 +12,7 @@
 			"installOhMyZsh": true,
 			"configureZshAsDefaultShell": true,
 			"upgradePackages": true,
-			"username": "user",
+			"username": "devcontainer-user",
 			"uid": "1000",
 			"gid": "1000"
 		}
@@ -22,7 +22,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh",
+	"postCreateCommand": "zsh ./.devcontainer/post-create.sh",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -32,8 +32,8 @@
 				"streetsidesoftware.code-spell-checker"
 			]
 		}
-	}
+	},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "devcontainer-user"
 }
