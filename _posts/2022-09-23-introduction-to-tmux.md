@@ -4,13 +4,9 @@ date: 2022-09-23 18:00:00 +0900
 categories: ['技术分享']
 tags: ['terminal', 'tmux']
 img_path: /assets/images/2022-09-23-introduction-to-tmux/
-image:
-  path: cover.png
-  width: 400
-  height: 200
 ---
 
-## 我为什么要用 tmux ？
+## 为什么要用 tmux？
 
 作为一名（自称的）全栈工程师，在开发中往往会遇到需要在本地启动很多（5~10 个）服务的情况。
 
@@ -92,7 +88,7 @@ _切换 session、window 和 pane 的界面_
 > 为 sessions 和 windows 取一个好名字非常重要。值得注意的是，panes 似乎不配拥有姓名，但 tmux 会自动为每个 pane 编上序号。
 {: .prompt-info }
 
-## 如何用好 tmux ？
+## 如何用好 tmux？
 
 首先需要说明 tmux 的操作大量依赖键盘快捷键（类似于 Vim），这对于初学的小伙伴们非常不友好。
 与学习 Vim 相同，为了记住这些快捷键，只能通过多用多练，慢慢地自然就会熟悉啦。
