@@ -14,6 +14,7 @@ $ bundle install
 ### Start Application
 
 ```shell
+# When using WSL, you need to add sudo
 $ bundle exec jekyll s --livereload
 ```
 
