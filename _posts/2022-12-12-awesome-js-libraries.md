@@ -12,12 +12,12 @@ published: true
 
 |Repository Name|Keywords|Last Updated|Note|
 |-|-|-|-|
-|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2023/06/10|基于 Tailwind 的 UI 组件库|
+|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2023/06/11|基于 Tailwind 的 UI 组件库|
 |[atomiks/tippyjs](https://github.com/atomiks/tippyjs){:target="_blank"}|`ui`,`tooltip`,`dropdown`|2023/04/16|提示标签|
-|[floating-ui/floating-ui](https://github.com/floating-ui/floating-ui){:target="_blank"}|`ui`,`anchor`|2023/06/10|实现各种组件的定位、漂浮效果|
+|[floating-ui/floating-ui](https://github.com/floating-ui/floating-ui){:target="_blank"}|`ui`,`anchor`|2023/06/11|实现各种组件的定位、漂浮效果|
 |[notiflix/Notiflix](https://github.com/notiflix/Notiflix){:target="_blank"}|`ui`,`alert`,`notification`|2023/04/14|通知，加载，提示框等方案|
 |[fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs){:target="_blank"}|`ui`,`image`,`viewer`|2023/04/14|图片查看，画廊|
-|[fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs){:target="_blank"}|`ui`,`image`|2023/03/26|图像裁剪|
+|[fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs){:target="_blank"}|`ui`,`image`|2023/06/11|图像裁剪|
 |[wagerfield/parallax](https://github.com/wagerfield/parallax){:target="_blank"}|`ui`,`image`,`animation`|2023/05/06|使用陀螺仪或鼠标生成视差特效|
 |[mattboldt/typed.js](https://github.com/mattboldt/typed.js){:target="_blank"}|`ui`,`typing`,`animation`|2023/06/01|打字机特效|
 |[nolimits4web/swiper](https://github.com/nolimits4web/swiper){:target="_blank"}|`ui`,`slide`|2023/06/09|幻灯片效果|
@@ -28,19 +28,19 @@ published: true
 |[hakimel/reveal.js](https://github.com/hakimel/reveal.js){:target="_blank"}|`ui`,`swipe`,`mobile`|2023/05/31|移动端的页面滑动方案|
 |[usablica/intro.js](https://github.com/usablica/intro.js){:target="_blank"}|`ui`,`onboarding`|2023/06/09|界面操作引导|
 |[benhowdle89/grade](https://github.com/benhowdle89/grade){:target="_blank"}|`ui`,`image`,`color`|2022/08/02|根据图片颜色自动生成背景色|
-|[highlightjs/highlight.js](https://github.com/highlightjs/highlight.js){:target="_blank"}|`ui`,`text`,`markdown`,`code`|2023/06/03|代码高亮|
+|[highlightjs/highlight.js](https://github.com/highlightjs/highlight.js){:target="_blank"}|`ui`,`text`,`markdown`,`code`|2023/06/11|代码高亮|
 |[VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js){:target="_blank"}|`ui`,`animation`,`background`|2023/04/12|粒子背景特效|
-|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2023/06/10|3D 特效引擎|
+|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2023/06/11|3D 特效引擎|
 |[juliangarnier/anime](https://github.com/juliangarnier/anime){:target="_blank"}|`ui`,`animation`|2023/03/31|动画特效引擎|
 |[showdownjs/showdown](https://github.com/showdownjs/showdown){:target="_blank"}|`ui`,`markdown`|2023/01/27|Markdown 转换工具|
-|[markedjs/marked](https://github.com/markedjs/marked){:target="_blank"}|`ui`,`markdown`|2023/06/10|Markdown 转换工具|
+|[markedjs/marked](https://github.com/markedjs/marked){:target="_blank"}|`ui`,`markdown`|2023/06/11|Markdown 转换工具|
 |[codex-team/editor.js](https://github.com/codex-team/editor.js){:target="_blank"}|`ui`,`editor`,`text`|2023/06/06|功能强大的编辑器|
 |[niklasvh/html2canvas](https://github.com/niklasvh/html2canvas){:target="_blank"}|`ui`,`html`,`canvas`|2023/04/17|将 HTML 转换为 Canvas。用于保存或展示|
 |[ustbhuangyi/better-scroll](https://github.com/ustbhuangyi/better-scroll){:target="_blank"}|`ui`,`scroll`|2023/03/29|移动端的页面滑动增强|
-|[d3/d3](https://github.com/d3/d3){:target="_blank"}|`ui`,`data`,`chart`|2023/06/10|根据数据生成图表|
+|[d3/d3](https://github.com/d3/d3){:target="_blank"}|`ui`,`data`,`chart`|2023/06/11|根据数据生成图表|
 |[chartjs/Chart.js](https://github.com/chartjs/Chart.js){:target="_blank"}|`ui`,`data`,`chart`|2023/06/08|图表生成|
 |[apache/echarts](https://github.com/apache/echarts){:target="_blank"}|`ui`,`data`,`chart`|2023/06/09|图表生成|
-|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2023/06/10|PDF 阅读器|
+|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2023/06/11|PDF 阅读器|
 |[zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js){:target="_blank"}|`clipboard`|2023/05/24|剪贴板|
 |[js-cookie/js-cookie](https://github.com/js-cookie/js-cookie){:target="_blank"}|`cookie`|2023/05/30|Cookie 的使用|
 |[eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js){:target="_blank"}|`file`,`save`|2023/03/01|保存为本地文件|
@@ -69,14 +69,14 @@ published: true
 |[sampotts/plyr](https://github.com/sampotts/plyr){:target="_blank"}|`video player`,`media`|2023/05/21|视频播放器|
 |[BMSVieira/moovie.js](https://github.com/BMSVieira/moovie.js){:target="_blank"}|`video player`,`media`|2023/03/30|又一个视频播放器|
 |[goldfire/howler.js](https://github.com/goldfire/howler.js){:target="_blank"}|`audio player`,`media`|2023/05/16|音频播放器|
-|[naptha/tesseract.js](https://github.com/naptha/tesseract.js){:target="_blank"}|`ocr`,`image`,`text`|2023/06/05|OCR，各种语言的文字提取|
-|[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2023/06/09|生成可互动的地图|
+|[naptha/tesseract.js](https://github.com/naptha/tesseract.js){:target="_blank"}|`ocr`,`image`,`text`|2023/06/11|OCR，各种语言的文字提取|
+|[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2023/06/11|生成可互动的地图|
 |[Leaflet/Leaflet](https://github.com/Leaflet/Leaflet){:target="_blank"}|`ui`,`maps`|2023/06/10|移动端友好的地图|
 |[jakubfiala/atrament.js](https://github.com/jakubfiala/atrament.js){:target="_blank"}|`ui`,`canvas`,`drawing`|2023/04/01|写字板，画图板|
-|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2023/06/10|写字板，画图板|
+|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2023/06/11|写字板，画图板|
 |[cozmo/jsQR](https://github.com/cozmo/jsQR){:target="_blank"}|`image`,`qr code`,`detector`|2023/02/13|二维码识别|
 |[cong-min/TagCloud](https://github.com/cong-min/TagCloud){:target="_blank"}|`ui`,`tagcloud`,`data`|2023/01/17|3d 词云图生成|
-|[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2023/06/10|E2E 测试|
+|[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2023/06/11|E2E 测试|
 |[mswjs/msw](https://github.com/mswjs/msw){:target="_blank"}|`mock`,`data`|2023/06/09|Mock 数据生成|
 |[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2023/06/09|Mock 数据生成|
 |[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs){:target="_blank"}|`browser`,`fingerprint`|2023/06/06|用户识别，部分免费|
@@ -100,11 +100,11 @@ published: true
 |[alvarotrigo/vue-fullpage.js](https://github.com/alvarotrigo/vue-fullpage.js){:target="_blank"}|`ui`,`swipe`,`page`|2023/06/01|fullPage.js 的封装|
 |[KABBOUCHI/vue-tippy](https://github.com/KABBOUCHI/vue-tippy){:target="_blank"}|`ui`,`tippy`,`tooltip`|2023/05/20|Tippy.js 的封装|
 |[meteorlxy/vue-showdown](https://github.com/meteorlxy/vue-showdown){:target="_blank"}|`ui`,`markdown`|2023/06/07|Showdown 的封装|
-|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2023/06/10|基于 Material Design 的 UI 组件库|
-|[DevCloudFE/vue-devui](https://github.com/DevCloudFE/vue-devui){:target="_blank"}|`ui`,`component`|2023/06/09|基于 DevUI Design 的 UI 组件库|
+|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2023/06/11|基于 Material Design 的 UI 组件库|
+|[DevCloudFE/vue-devui](https://github.com/DevCloudFE/vue-devui){:target="_blank"}|`ui`,`component`|2023/06/11|基于 DevUI Design 的 UI 组件库|
 |[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2023/06/09|基于 Ant Design 的 UI 组件库|
-|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2023/06/10|基于 Element 的 UI 组件库|
-|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2023/06/10|基于 Vant 的 UI 组件库|
+|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2023/06/11|基于 Element 的 UI 组件库|
+|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2023/06/11|基于 Vant 的 UI 组件库|
 |[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2023/06/09|基于 Material Design 的移动端 UI 组件库|
 |[xiaojieajie/vue3-cute-timeline](https://github.com/xiaojieajie/vue3-cute-timeline){:target="_blank"}|`ui`,`component`,`timeline`|2023/03/06|时间轴组件|
 |[ndelvalle/v-click-outside](https://github.com/ndelvalle/v-click-outside){:target="_blank"}|`user input`,`click`|2023/03/07|点击区域检测|
@@ -117,6 +117,6 @@ published: true
 |[KroneCorylus/ngx-colors](https://github.com/KroneCorylus/ngx-colors){:target="_blank"}|`ui`,`color`,`picker`|2023/05/24|颜色选择器|
 |[swimlane/ngx-charts](https://github.com/swimlane/ngx-charts){:target="_blank"}|`ui`,`chart`|2023/06/01|图表生成|
 |[NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd){:target="_blank"}|`ui`,`component`|2023/06/08|基于 Ant Design 的 UI 组件库|
-|[angular/components](https://github.com/angular/components){:target="_blank"}|`ui`,`component`|2023/06/10|基于 Material Design 的 UI 组件库|
+|[angular/components](https://github.com/angular/components){:target="_blank"}|`ui`,`component`|2023/06/11|基于 Material Design 的 UI 组件库|
 |[ngrx/platform](https://github.com/ngrx/platform){:target="_blank"}|`state`,`store`,`data`|2023/06/08|状态管理，数据共享，存储|
 |[angular/angularfire](https://github.com/angular/angularfire){:target="_blank"}|`firebase`|2023/06/08|Firebase 的封装|
