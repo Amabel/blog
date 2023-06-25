@@ -8,7 +8,7 @@ published: true
 
 在使用 Nginx 的容器时候，需要开启 debug 日志来进行错误排查。
 
-## 1. 使用 nginx-debug 来启动容器
+## 步骤 1： 使用 nginx-debug 来启动容器
 
 ```sh
 $ docker run --name my-nginx -v /host/path/nginx.conf:/etc/nginx/nginx.conf:ro -d nginx nginx-debug -g 'daemon off;'
@@ -24,7 +24,7 @@ web:
   command: [nginx-debug, '-g', 'daemon off;']
 ```
 
-## 2. 在配置文件中启用 debug 日志
+## 步骤 2： 在配置文件中启用 debug 日志
 
 ```conf
 server {
