@@ -16,6 +16,7 @@ $ bundle install
 ```shell
 # When using WSL, you need to add sudo
 $ bundle exec jekyll s --livereload
+$ sudo bundle exec jekyll s --livereload
 ```
 
 ### Upgrade `jekyll-theme-chirpy`
