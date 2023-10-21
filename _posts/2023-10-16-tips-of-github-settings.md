@@ -1,8 +1,8 @@
 ---
 title: '一些关于 GitHub 设定的小技巧'
 date: 2023-10-15 10:30:00 +0900
-# categories: ['']
-# tags: ['']
+categories: ['技术分享']
+tags: ['github', 'git']
 img_path: /assets/images/2023-10-16-tips-of-github-settings/
 # image:
 #   path: cover.png
