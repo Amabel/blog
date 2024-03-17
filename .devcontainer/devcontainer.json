@@ -4,7 +4,7 @@
 	"name": "blog",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "ruby:3.2.2-bullseye",
-	
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:1": {
@@ -12,7 +12,7 @@
 			"installOhMyZsh": true,
 			"configureZshAsDefaultShell": true,
 			"upgradePackages": true,
-			"username": "devcontainer-user",
+			"username": "devcontainer",
 			"uid": "1000",
 			"gid": "1000"
 		}
@@ -30,11 +30,13 @@
 			"extensions": [
 				"eamodio.gitlens",
 				"streetsidesoftware.code-spell-checker",
-				"skn0tt.markdown-link-expander"
+				"skn0tt.markdown-link-expander",
+				"oderwat.indent-rainbow",
+				"shardulm94.trailing-spaces"
 			]
 		}
 	},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	"remoteUser": "devcontainer-user"
+	"remoteUser": "devcontainer"
 }
