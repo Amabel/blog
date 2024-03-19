@@ -7,16 +7,16 @@ Welcome to my blog. This blog is built with [Jekyll](https://jekyllrb.com/) and 
 
 ### Install Dependencies
 
-```shell
-$ bundle install
+```sh
+bundle install
 ```
 
 ### Start Application
 
-```shell
+```sh
 # When using WSL, you need to add sudo
-$ bundle exec jekyll s --livereload
-$ sudo bundle exec jekyll s --livereload
+bundle exec jekyll s --livereload
+sudo bundle exec jekyll s --livereload
 
 # http://127.0.0.1:4000/
 ```
@@ -24,7 +24,7 @@ $ sudo bundle exec jekyll s --livereload
 ### Upgrade `jekyll-theme-chirpy`
 
 1. Replace content in [Gemfile](./Gemfile) with [chirpy-starter
-](https://github.com/cotes2020/chirpy-starter/blob/main/Gemfile) 
+](https://github.com/cotes2020/chirpy-starter/blob/main/Gemfile)
 2. Run `bundle install`
 
 ## License
