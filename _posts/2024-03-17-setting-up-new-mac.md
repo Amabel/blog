@@ -101,6 +101,8 @@ code --install-extension github.vscode-github-actions
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension bradlc.vscode-tailwindcss
+code --install-extension visualstudioexptteam.vscodeintellicode
+code --install-extension codeium.codeium
 ```
 
 ## 7. 从 App Store 下载软件
