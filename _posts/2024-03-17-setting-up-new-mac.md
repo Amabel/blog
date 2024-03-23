@@ -53,6 +53,7 @@ brew install gh
 brew install nvm
 brew install tmux
 brew install peco
+brew install mysql
 ```
 
 ## 4. 安装 Oh My Zsh
@@ -103,6 +104,7 @@ code --install-extension vincaslt.highlight-matching-tag
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension codeium.codeium
+code --install-extension amazonwebservices.aws-toolkit-vscode
 ```
 
 ## 7. 从 App Store 下载软件
