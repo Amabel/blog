@@ -30,11 +30,11 @@ published: true
 |[benhowdle89/grade](https://github.com/benhowdle89/grade){:target="_blank"}|`ui`,`image`,`color`|2022/08/02|根据图片颜色自动生成背景色|
 |[highlightjs/highlight.js](https://github.com/highlightjs/highlight.js){:target="_blank"}|`ui`,`text`,`markdown`,`code`|2024/06/08|代码高亮|
 |[VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js){:target="_blank"}|`ui`,`animation`,`background`|2024/03/28|粒子背景特效|
-|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2024/06/08|3D 特效引擎|
+|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2024/06/09|3D 特效引擎|
 |[juliangarnier/anime](https://github.com/juliangarnier/anime){:target="_blank"}|`ui`,`animation`|2024/05/26|动画特效引擎|
 |[showdownjs/showdown](https://github.com/showdownjs/showdown){:target="_blank"}|`ui`,`markdown`|2024/05/09|Markdown 转换工具|
-|[markedjs/marked](https://github.com/markedjs/marked){:target="_blank"}|`ui`,`markdown`|2024/06/03|Markdown 转换工具|
-|[codex-team/editor.js](https://github.com/codex-team/editor.js){:target="_blank"}|`ui`,`editor`,`text`|2024/06/08|功能强大的编辑器|
+|[markedjs/marked](https://github.com/markedjs/marked){:target="_blank"}|`ui`,`markdown`|2024/06/09|Markdown 转换工具|
+|[codex-team/editor.js](https://github.com/codex-team/editor.js){:target="_blank"}|`ui`,`editor`,`text`|2024/06/09|功能强大的编辑器|
 |[niklasvh/html2canvas](https://github.com/niklasvh/html2canvas){:target="_blank"}|`ui`,`html`,`canvas`|2024/05/20|将 HTML 转换为 Canvas。用于保存或展示|
 |[ustbhuangyi/better-scroll](https://github.com/ustbhuangyi/better-scroll){:target="_blank"}|`ui`,`scroll`|2024/02/27|移动端的页面滑动增强|
 |[d3/d3](https://github.com/d3/d3){:target="_blank"}|`ui`,`data`,`chart`|2024/06/03|根据数据生成图表|
@@ -53,7 +53,7 @@ published: true
 |[nosir/cleave.js](https://github.com/nosir/cleave.js){:target="_blank"}|`format`,`text`,`number`|2023/11/25|自定义格式，自动格式化输入文本|
 |[moment/moment](https://github.com/moment/moment){:target="_blank"}|`format`,`date`,`time`|2024/04/02|格式化时间、日期|
 |[moment/luxon](https://github.com/moment/luxon){:target="_blank"}|`format`,`date`,`time`|2024/06/06|格式化时间、日期。轻量|
-|[iamkun/dayjs](https://github.com/iamkun/dayjs){:target="_blank"}|`format`,`date`,`time`|2024/06/07|格式化时间、日期。更轻量|
+|[iamkun/dayjs](https://github.com/iamkun/dayjs){:target="_blank"}|`format`,`date`,`time`|2024/06/09|格式化时间、日期。更轻量|
 |[date-fns/date-fns](https://github.com/date-fns/date-fns){:target="_blank"}|`format`,`date`,`time`|2024/06/08|格式化时间、日期|
 |[vercel/ms](https://github.com/vercel/ms){:target="_blank"}|`time`,`converter`|2024/04/08|将各种时间转换为毫秒|
 |[blakeembrey/change-case](https://github.com/blakeembrey/change-case){:target="_blank"}|`converter`,`case`|2024/06/05|各种大小写格式的转换|
@@ -65,20 +65,20 @@ published: true
 |[justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js){:target="_blank"}|`face detection`,`computer vision`|2024/01/24|面部识别|
 |[mpetroff/pannellum](https://github.com/mpetroff/pannellum){:target="_blank"}|`image`,`panorama`,`3d`|2024/06/04|根据图片生成全景模式|
 |[DIYgod/DPlayer](https://github.com/DIYgod/DPlayer){:target="_blank"}|`video player`,`media`|2024/03/24|视频播放器。可以实现弹幕功能|
-|[videojs/video.js](https://github.com/videojs/video.js){:target="_blank"}|`video player`,`media`|2024/06/06|视频播放器|
+|[videojs/video.js](https://github.com/videojs/video.js){:target="_blank"}|`video player`,`media`|2024/06/09|视频播放器|
 |[sampotts/plyr](https://github.com/sampotts/plyr){:target="_blank"}|`video player`,`media`|2024/04/09|视频播放器|
 |[BMSVieira/moovie.js](https://github.com/BMSVieira/moovie.js){:target="_blank"}|`video player`,`media`|2023/12/31|又一个视频播放器|
 |[goldfire/howler.js](https://github.com/goldfire/howler.js){:target="_blank"}|`audio player`,`media`|2024/06/05|音频播放器|
 |[naptha/tesseract.js](https://github.com/naptha/tesseract.js){:target="_blank"}|`ocr`,`image`,`text`|2024/05/07|OCR，各种语言的文字提取|
-|[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2024/06/08|生成可互动的地图|
+|[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2024/06/09|生成可互动的地图|
 |[Leaflet/Leaflet](https://github.com/Leaflet/Leaflet){:target="_blank"}|`ui`,`maps`|2024/06/05|移动端友好的地图|
 |[jakubfiala/atrament.js](https://github.com/jakubfiala/atrament.js){:target="_blank"}|`ui`,`canvas`,`drawing`|2024/05/19|写字板，画图板|
-|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2024/06/08|写字板，画图板|
+|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2024/06/09|写字板，画图板|
 |[cozmo/jsQR](https://github.com/cozmo/jsQR){:target="_blank"}|`image`,`qr code`,`detector`|2023/12/29|二维码识别|
 |[cong-min/TagCloud](https://github.com/cong-min/TagCloud){:target="_blank"}|`ui`,`tagcloud`,`data`|2024/03/22|3d 词云图生成|
 |[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2024/06/08|E2E 测试|
 |[mswjs/msw](https://github.com/mswjs/msw){:target="_blank"}|`mock`,`data`|2024/06/07|Mock 数据生成|
-|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2024/06/08|Mock 数据生成|
+|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2024/06/09|Mock 数据生成|
 |[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs){:target="_blank"}|`browser`,`fingerprint`|2024/06/05|用户识别，部分免费|
 
 ## TypeScript
@@ -92,7 +92,7 @@ published: true
 
 |Repository Name|Keywords|Last Updated|Note|
 |-|-|-|-|
-|[vueuse/vueuse](https://github.com/vueuse/vueuse){:target="_blank"}|`tools`,`utilities`|2024/06/08|Vue 的常用工具集合|
+|[vueuse/vueuse](https://github.com/vueuse/vueuse){:target="_blank"}|`tools`,`utilities`|2024/06/09|Vue 的常用工具集合|
 |[antfu/vite-ssg](https://github.com/antfu/vite-ssg){:target="_blank"}|`ssg`,`seo`|2024/05/12|静态页面生成，搜索引擎|
 |[creotip/vue-particles](https://github.com/creotip/vue-particles){:target="_blank"}|`ui`,`animation`,`background`|2024/03/16|粒子背景特效|
 |[SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable){:target="_blank"}|`ui`,`draggable`|2024/03/04|拖动方案|
@@ -100,12 +100,12 @@ published: true
 |[alvarotrigo/vue-fullpage.js](https://github.com/alvarotrigo/vue-fullpage.js){:target="_blank"}|`ui`,`swipe`,`page`|2024/02/28|fullPage.js 的封装|
 |[KABBOUCHI/vue-tippy](https://github.com/KABBOUCHI/vue-tippy){:target="_blank"}|`ui`,`tippy`,`tooltip`|2024/05/27|Tippy.js 的封装|
 |[meteorlxy/vue-showdown](https://github.com/meteorlxy/vue-showdown){:target="_blank"}|`ui`,`markdown`|2024/05/30|Showdown 的封装|
-|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2024/06/07|基于 Material Design 的 UI 组件库|
+|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2024/06/09|基于 Material Design 的 UI 组件库|
 |[DevCloudFE/vue-devui](https://github.com/DevCloudFE/vue-devui){:target="_blank"}|`ui`,`component`|2024/06/08|基于 DevUI Design 的 UI 组件库|
-|[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2024/06/07|基于 Ant Design 的 UI 组件库|
-|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2024/06/08|基于 Element 的 UI 组件库|
-|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2024/06/08|基于 Vant 的 UI 组件库|
-|[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2024/06/08|基于 Material Design 的移动端 UI 组件库|
+|[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2024/06/09|基于 Ant Design 的 UI 组件库|
+|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2024/06/09|基于 Element 的 UI 组件库|
+|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2024/06/09|基于 Vant 的 UI 组件库|
+|[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2024/06/09|基于 Material Design 的移动端 UI 组件库|
 |[xiaojieajie/vue3-cute-timeline](https://github.com/xiaojieajie/vue3-cute-timeline){:target="_blank"}|`ui`,`component`,`timeline`|2023/03/06|时间轴组件|
 |[ndelvalle/v-click-outside](https://github.com/ndelvalle/v-click-outside){:target="_blank"}|`user input`,`click`|2023/03/07|点击区域检测|
 |[vuejs/pinia](https://github.com/vuejs/pinia){:target="_blank"}|`state`,`store`,`data`|2024/06/06|状态管理，数据共享，存储|
@@ -114,9 +114,9 @@ published: true
 
 |Repository Name|Keywords|Last Updated|Note|
 |-|-|-|-|
-|[KroneCorylus/ngx-colors](https://github.com/KroneCorylus/ngx-colors){:target="_blank"}|`ui`,`color`,`picker`|2024/05/23|颜色选择器|
+|[KroneCorylus/ngx-colors](https://github.com/KroneCorylus/ngx-colors){:target="_blank"}|`ui`,`color`,`picker`|2024/06/08|颜色选择器|
 |[swimlane/ngx-charts](https://github.com/swimlane/ngx-charts){:target="_blank"}|`ui`,`chart`|2024/05/31|图表生成|
 |[NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd){:target="_blank"}|`ui`,`component`|2024/06/08|基于 Ant Design 的 UI 组件库|
-|[angular/components](https://github.com/angular/components){:target="_blank"}|`ui`,`component`|2024/06/08|基于 Material Design 的 UI 组件库|
+|[angular/components](https://github.com/angular/components){:target="_blank"}|`ui`,`component`|2024/06/09|基于 Material Design 的 UI 组件库|
 |[ngrx/platform](https://github.com/ngrx/platform){:target="_blank"}|`state`,`store`,`data`|2024/06/08|状态管理，数据共享，存储|
 |[angular/angularfire](https://github.com/angular/angularfire){:target="_blank"}|`firebase`|2024/05/31|Firebase 的封装|
