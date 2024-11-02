@@ -30,7 +30,7 @@ published: true
 |[benhowdle89/grade](https://github.com/benhowdle89/grade){:target="_blank"}|`ui`,`image`,`color`|2022/08/02|根据图片颜色自动生成背景色|
 |[highlightjs/highlight.js](https://github.com/highlightjs/highlight.js){:target="_blank"}|`ui`,`text`,`markdown`,`code`|2024/11/01|代码高亮|
 |[VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js){:target="_blank"}|`ui`,`animation`,`background`|2024/03/28|粒子背景特效|
-|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2024/10/31|3D 特效引擎|
+|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2024/11/02|3D 特效引擎|
 |[juliangarnier/anime](https://github.com/juliangarnier/anime){:target="_blank"}|`ui`,`animation`|2024/09/26|动画特效引擎|
 |[showdownjs/showdown](https://github.com/showdownjs/showdown){:target="_blank"}|`ui`,`markdown`|2024/08/20|Markdown 转换工具|
 |[markedjs/marked](https://github.com/markedjs/marked){:target="_blank"}|`ui`,`markdown`|2024/10/29|Markdown 转换工具|
@@ -40,7 +40,7 @@ published: true
 |[d3/d3](https://github.com/d3/d3){:target="_blank"}|`ui`,`data`,`chart`|2024/10/22|根据数据生成图表|
 |[chartjs/Chart.js](https://github.com/chartjs/Chart.js){:target="_blank"}|`ui`,`data`,`chart`|2024/10/28|图表生成|
 |[apache/echarts](https://github.com/apache/echarts){:target="_blank"}|`ui`,`data`,`chart`|2024/10/30|图表生成|
-|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2024/10/31|PDF 阅读器|
+|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2024/11/02|PDF 阅读器|
 |[zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js){:target="_blank"}|`clipboard`|2024/01/09|剪贴板|
 |[js-cookie/js-cookie](https://github.com/js-cookie/js-cookie){:target="_blank"}|`cookie`|2024/07/14|Cookie 的使用|
 |[eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js){:target="_blank"}|`file`,`save`|2023/03/01|保存为本地文件|
@@ -58,7 +58,7 @@ published: true
 |[vercel/ms](https://github.com/vercel/ms){:target="_blank"}|`time`,`converter`|2024/08/29|将各种时间转换为毫秒|
 |[blakeembrey/change-case](https://github.com/blakeembrey/change-case){:target="_blank"}|`converter`,`case`|2024/09/15|各种大小写格式的转换|
 |[reactivex/rxjs](https://github.com/reactivex/rxjs){:target="_blank"}|`rx`,`reactive`|2024/06/28|响应式编程解决方案|
-|[faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js){:target="_blank"}|`user agent`,`browser`,`environment`|2024/10/29|用户 UA 检测|
+|[faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js){:target="_blank"}|`user agent`,`browser`,`environment`|2024/11/02|用户 UA 检测|
 |[axios/axios](https://github.com/axios/axios){:target="_blank"}|`http`,`request`,`network`|2024/11/01|HTTP 请求|
 |[softonic/axios-retry](https://github.com/softonic/axios-retry){:target="_blank"}|`http`,`request`,`axios`|2024/08/02|axios 的重试插件|
 |[i18next/i18next](https://github.com/i18next/i18next){:target="_blank"}|`i18n`,`translate`,`language`|2024/10/25|国际化|
@@ -76,10 +76,10 @@ published: true
 |[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2024/11/01|写字板，画图板|
 |[cozmo/jsQR](https://github.com/cozmo/jsQR){:target="_blank"}|`image`,`qr code`,`detector`|2023/12/29|二维码识别|
 |[cong-min/TagCloud](https://github.com/cong-min/TagCloud){:target="_blank"}|`ui`,`tagcloud`,`data`|2024/08/15|3d 词云图生成|
-|[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2024/11/01|E2E 测试|
+|[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2024/11/02|E2E 测试|
 |[mswjs/msw](https://github.com/mswjs/msw){:target="_blank"}|`mock`,`data`|2024/10/30|Mock 数据生成|
-|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2024/11/01|Mock 数据生成|
-|[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs){:target="_blank"}|`browser`,`fingerprint`|2024/10/31|用户识别，部分免费|
+|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2024/11/02|Mock 数据生成|
+|[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs){:target="_blank"}|`browser`,`fingerprint`|2024/11/02|用户识别，部分免费|
 
 ## TypeScript
 
@@ -100,11 +100,11 @@ published: true
 |[alvarotrigo/vue-fullpage.js](https://github.com/alvarotrigo/vue-fullpage.js){:target="_blank"}|`ui`,`swipe`,`page`|2024/10/17|fullPage.js 的封装|
 |[KABBOUCHI/vue-tippy](https://github.com/KABBOUCHI/vue-tippy){:target="_blank"}|`ui`,`tippy`,`tooltip`|2024/10/15|Tippy.js 的封装|
 |[meteorlxy/vue-showdown](https://github.com/meteorlxy/vue-showdown){:target="_blank"}|`ui`,`markdown`|2024/09/27|Showdown 的封装|
-|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2024/11/01|基于 Material Design 的 UI 组件库|
+|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2024/11/02|基于 Material Design 的 UI 组件库|
 |[DevCloudFE/vue-devui](https://github.com/DevCloudFE/vue-devui){:target="_blank"}|`ui`,`component`|2024/07/06|基于 DevUI Design 的 UI 组件库|
 |[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2024/10/28|基于 Ant Design 的 UI 组件库|
-|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2024/11/01|基于 Element 的 UI 组件库|
-|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2024/10/30|基于 Vant 的 UI 组件库|
+|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2024/11/02|基于 Element 的 UI 组件库|
+|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2024/11/02|基于 Vant 的 UI 组件库|
 |[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2024/10/29|基于 Material Design 的移动端 UI 组件库|
 |[xiaojieajie/vue3-cute-timeline](https://github.com/xiaojieajie/vue3-cute-timeline){:target="_blank"}|`ui`,`component`,`timeline`|2023/03/06|时间轴组件|
 |[ndelvalle/v-click-outside](https://github.com/ndelvalle/v-click-outside){:target="_blank"}|`user input`,`click`|2023/03/07|点击区域检测|
