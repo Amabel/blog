@@ -12,9 +12,9 @@ published: true
 
 |Repository Name|Keywords|Last Updated|Note|
 |-|-|-|-|
-|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2024/11/29|基于 Tailwind 的 UI 组件库|
+|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2024/11/30|基于 Tailwind 的 UI 组件库|
 |[atomiks/tippyjs](https://github.com/atomiks/tippyjs){:target="_blank"}|`ui`,`tooltip`,`dropdown`|2024/05/27|提示标签|
-|[floating-ui/floating-ui](https://github.com/floating-ui/floating-ui){:target="_blank"}|`ui`,`anchor`|2024/11/28|实现各种组件的定位、漂浮效果|
+|[floating-ui/floating-ui](https://github.com/floating-ui/floating-ui){:target="_blank"}|`ui`,`anchor`|2024/11/30|实现各种组件的定位、漂浮效果|
 |[notiflix/Notiflix](https://github.com/notiflix/Notiflix){:target="_blank"}|`ui`,`alert`,`notification`|2024/06/13|通知，加载，提示框等方案|
 |[fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs){:target="_blank"}|`ui`,`image`,`viewer`|2024/11/24|图片查看，画廊|
 |[fengyuanchen/cropperjs](https://github.com/fengyuanchen/cropperjs){:target="_blank"}|`ui`,`image`|2024/11/24|图像裁剪|
@@ -22,7 +22,7 @@ published: true
 |[mattboldt/typed.js](https://github.com/mattboldt/typed.js){:target="_blank"}|`ui`,`typing`,`animation`|2024/04/25|打字机特效|
 |[nolimits4web/swiper](https://github.com/nolimits4web/swiper){:target="_blank"}|`ui`,`slide`|2024/11/18|幻灯片效果|
 |[kenwheeler/slick](https://github.com/kenwheeler/slick){:target="_blank"}|`ui`,`slide`,`carousel`|2024/08/30|幻灯片效果|
-|[slidevjs/slidev](https://github.com/slidevjs/slidev){:target="_blank"}|`ui`,`slide`|2024/11/29|幻灯片效果|
+|[slidevjs/slidev](https://github.com/slidevjs/slidev){:target="_blank"}|`ui`,`slide`|2024/11/30|幻灯片效果|
 |[sindresorhus/screenfull](https://github.com/sindresorhus/screenfull){:target="_blank"}|`ui`,`full screen`|2022/07/08|全屏显示|
 |[alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js){:target="_blank"}|`ui`,`swipe`,`page`|2024/11/29|整页效果|
 |[hakimel/reveal.js](https://github.com/hakimel/reveal.js){:target="_blank"}|`ui`,`swipe`,`mobile`|2024/11/28|移动端的页面滑动方案|
@@ -30,7 +30,7 @@ published: true
 |[benhowdle89/grade](https://github.com/benhowdle89/grade){:target="_blank"}|`ui`,`image`,`color`|2022/08/02|根据图片颜色自动生成背景色|
 |[highlightjs/highlight.js](https://github.com/highlightjs/highlight.js){:target="_blank"}|`ui`,`text`,`markdown`,`code`|2024/11/17|代码高亮|
 |[VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js){:target="_blank"}|`ui`,`animation`,`background`|2024/03/28|粒子背景特效|
-|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2024/11/29|3D 特效引擎|
+|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2024/11/30|3D 特效引擎|
 |[juliangarnier/anime](https://github.com/juliangarnier/anime){:target="_blank"}|`ui`,`animation`|2024/11/10|动画特效引擎|
 |[showdownjs/showdown](https://github.com/showdownjs/showdown){:target="_blank"}|`ui`,`markdown`|2024/08/20|Markdown 转换工具|
 |[markedjs/marked](https://github.com/markedjs/marked){:target="_blank"}|`ui`,`markdown`|2024/11/29|Markdown 转换工具|
@@ -58,7 +58,7 @@ published: true
 |[vercel/ms](https://github.com/vercel/ms){:target="_blank"}|`time`,`converter`|2024/08/29|将各种时间转换为毫秒|
 |[blakeembrey/change-case](https://github.com/blakeembrey/change-case){:target="_blank"}|`converter`,`case`|2024/09/15|各种大小写格式的转换|
 |[reactivex/rxjs](https://github.com/reactivex/rxjs){:target="_blank"}|`rx`,`reactive`|2024/06/28|响应式编程解决方案|
-|[faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js){:target="_blank"}|`user agent`,`browser`,`environment`|2024/11/28|用户 UA 检测|
+|[faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js){:target="_blank"}|`user agent`,`browser`,`environment`|2024/11/30|用户 UA 检测|
 |[axios/axios](https://github.com/axios/axios){:target="_blank"}|`http`,`request`,`network`|2024/11/25|HTTP 请求|
 |[softonic/axios-retry](https://github.com/softonic/axios-retry){:target="_blank"}|`http`,`request`,`axios`|2024/08/02|axios 的重试插件|
 |[i18next/i18next](https://github.com/i18next/i18next){:target="_blank"}|`i18n`,`translate`,`language`|2024/11/25|国际化|
@@ -70,15 +70,15 @@ published: true
 |[BMSVieira/moovie.js](https://github.com/BMSVieira/moovie.js){:target="_blank"}|`video player`,`media`|2023/12/31|又一个视频播放器|
 |[goldfire/howler.js](https://github.com/goldfire/howler.js){:target="_blank"}|`audio player`,`media`|2024/07/30|音频播放器|
 |[naptha/tesseract.js](https://github.com/naptha/tesseract.js){:target="_blank"}|`ocr`,`image`,`text`|2024/10/19|OCR，各种语言的文字提取|
-|[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2024/11/29|生成可互动的地图|
+|[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2024/11/30|生成可互动的地图|
 |[Leaflet/Leaflet](https://github.com/Leaflet/Leaflet){:target="_blank"}|`ui`,`maps`|2024/11/25|移动端友好的地图|
 |[jakubfiala/atrament.js](https://github.com/jakubfiala/atrament.js){:target="_blank"}|`ui`,`canvas`,`drawing`|2024/11/21|写字板，画图板|
-|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2024/11/29|写字板，画图板|
+|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2024/11/30|写字板，画图板|
 |[cozmo/jsQR](https://github.com/cozmo/jsQR){:target="_blank"}|`image`,`qr code`,`detector`|2023/12/29|二维码识别|
 |[cong-min/TagCloud](https://github.com/cong-min/TagCloud){:target="_blank"}|`ui`,`tagcloud`,`data`|2024/08/15|3d 词云图生成|
 |[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2024/11/27|E2E 测试|
 |[mswjs/msw](https://github.com/mswjs/msw){:target="_blank"}|`mock`,`data`|2024/11/29|Mock 数据生成|
-|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2024/11/28|Mock 数据生成|
+|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2024/11/30|Mock 数据生成|
 |[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs){:target="_blank"}|`browser`,`fingerprint`|2024/11/19|用户识别，部分免费|
 
 ## TypeScript
@@ -103,7 +103,7 @@ published: true
 |[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2024/11/29|基于 Material Design 的 UI 组件库|
 |[DevCloudFE/vue-devui](https://github.com/DevCloudFE/vue-devui){:target="_blank"}|`ui`,`component`|2024/11/29|基于 DevUI Design 的 UI 组件库|
 |[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2024/11/27|基于 Ant Design 的 UI 组件库|
-|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2024/11/29|基于 Element 的 UI 组件库|
+|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2024/11/30|基于 Element 的 UI 组件库|
 |[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2024/11/29|基于 Vant 的 UI 组件库|
 |[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2024/11/29|基于 Material Design 的移动端 UI 组件库|
 |[xiaojieajie/vue3-cute-timeline](https://github.com/xiaojieajie/vue3-cute-timeline){:target="_blank"}|`ui`,`component`,`timeline`|2023/03/06|时间轴组件|
