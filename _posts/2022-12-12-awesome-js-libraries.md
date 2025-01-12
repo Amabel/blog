@@ -12,7 +12,7 @@ published: true
 
 |Repository Name|Keywords|Last Updated|Note|
 |-|-|-|-|
-|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2025/01/11|基于 Tailwind 的 UI 组件库|
+|[saadeghi/daisyui](https://github.com/saadeghi/daisyui){:target="_blank"}|`ui`,`component`|2025/01/12|基于 Tailwind 的 UI 组件库|
 |[atomiks/tippyjs](https://github.com/atomiks/tippyjs){:target="_blank"}|`ui`,`tooltip`,`dropdown`|2024/05/27|提示标签|
 |[floating-ui/floating-ui](https://github.com/floating-ui/floating-ui){:target="_blank"}|`ui`,`anchor`|2025/01/07|实现各种组件的定位、漂浮效果|
 |[notiflix/Notiflix](https://github.com/notiflix/Notiflix){:target="_blank"}|`ui`,`alert`,`notification`|2025/01/04|通知，加载，提示框等方案|
@@ -30,7 +30,7 @@ published: true
 |[benhowdle89/grade](https://github.com/benhowdle89/grade){:target="_blank"}|`ui`,`image`,`color`|2022/08/02|根据图片颜色自动生成背景色|
 |[highlightjs/highlight.js](https://github.com/highlightjs/highlight.js){:target="_blank"}|`ui`,`text`,`markdown`,`code`|2025/01/02|代码高亮|
 |[VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js){:target="_blank"}|`ui`,`animation`,`background`|2024/03/28|粒子背景特效|
-|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2025/01/11|3D 特效引擎|
+|[mrdoob/three.js](https://github.com/mrdoob/three.js){:target="_blank"}|`ui`,`animation`,`3d`|2025/01/12|3D 特效引擎|
 |[juliangarnier/anime](https://github.com/juliangarnier/anime){:target="_blank"}|`ui`,`animation`|2024/11/10|动画特效引擎|
 |[showdownjs/showdown](https://github.com/showdownjs/showdown){:target="_blank"}|`ui`,`markdown`|2024/08/20|Markdown 转换工具|
 |[markedjs/marked](https://github.com/markedjs/marked){:target="_blank"}|`ui`,`markdown`|2025/01/06|Markdown 转换工具|
@@ -40,7 +40,7 @@ published: true
 |[d3/d3](https://github.com/d3/d3){:target="_blank"}|`ui`,`data`,`chart`|2025/01/03|根据数据生成图表|
 |[chartjs/Chart.js](https://github.com/chartjs/Chart.js){:target="_blank"}|`ui`,`data`,`chart`|2025/01/05|图表生成|
 |[apache/echarts](https://github.com/apache/echarts){:target="_blank"}|`ui`,`data`,`chart`|2025/01/10|图表生成|
-|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2025/01/10|PDF 阅读器|
+|[mozilla/pdf.js](https://github.com/mozilla/pdf.js){:target="_blank"}|`ui`,`pdf reader`|2025/01/12|PDF 阅读器|
 |[zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js){:target="_blank"}|`clipboard`|2024/01/09|剪贴板|
 |[js-cookie/js-cookie](https://github.com/js-cookie/js-cookie){:target="_blank"}|`cookie`|2025/01/07|Cookie 的使用|
 |[eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js){:target="_blank"}|`file`,`save`|2023/03/01|保存为本地文件|
@@ -78,7 +78,7 @@ published: true
 |[cong-min/TagCloud](https://github.com/cong-min/TagCloud){:target="_blank"}|`ui`,`tagcloud`,`data`|2024/08/15|3d 词云图生成|
 |[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2025/01/11|E2E 测试|
 |[mswjs/msw](https://github.com/mswjs/msw){:target="_blank"}|`mock`,`data`|2025/01/10|Mock 数据生成|
-|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2025/01/11|Mock 数据生成|
+|[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2025/01/12|Mock 数据生成|
 |[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs){:target="_blank"}|`browser`,`fingerprint`|2025/01/06|用户识别，部分免费|
 
 ## TypeScript
@@ -102,10 +102,10 @@ published: true
 |[meteorlxy/vue-showdown](https://github.com/meteorlxy/vue-showdown){:target="_blank"}|`ui`,`markdown`|2024/09/27|Showdown 的封装|
 |[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2025/01/07|基于 Material Design 的 UI 组件库|
 |[DevCloudFE/vue-devui](https://github.com/DevCloudFE/vue-devui){:target="_blank"}|`ui`,`component`|2025/01/03|基于 DevUI Design 的 UI 组件库|
-|[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2025/01/05|基于 Ant Design 的 UI 组件库|
-|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2025/01/11|基于 Element 的 UI 组件库|
-|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2025/01/08|基于 Vant 的 UI 组件库|
-|[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2025/01/10|基于 Material Design 的移动端 UI 组件库|
+|[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2025/01/12|基于 Ant Design 的 UI 组件库|
+|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2025/01/12|基于 Element 的 UI 组件库|
+|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2025/01/12|基于 Vant 的 UI 组件库|
+|[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2025/01/12|基于 Material Design 的移动端 UI 组件库|
 |[xiaojieajie/vue3-cute-timeline](https://github.com/xiaojieajie/vue3-cute-timeline){:target="_blank"}|`ui`,`component`,`timeline`|2023/03/06|时间轴组件|
 |[ndelvalle/v-click-outside](https://github.com/ndelvalle/v-click-outside){:target="_blank"}|`user input`,`click`|2023/03/07|点击区域检测|
 |[vuejs/pinia](https://github.com/vuejs/pinia){:target="_blank"}|`state`,`store`,`data`|2025/01/10|状态管理，数据共享，存储|
