@@ -42,6 +42,7 @@ brew install --cask docker
 brew install --cask github
 brew install --cask captin
 brew install --cask notion
+brew install --cask chatgpt
 ```
 
 ## 3. 安装 CLI 命令
