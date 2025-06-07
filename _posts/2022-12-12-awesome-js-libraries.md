@@ -63,7 +63,7 @@ published: true
 |[softonic/axios-retry](https://github.com/softonic/axios-retry){:target="_blank"}|`http`,`request`,`axios`|2025/02/10|axios 的重试插件|
 |[i18next/i18next](https://github.com/i18next/i18next){:target="_blank"}|`i18n`,`translate`,`language`|2025/05/28|国际化|
 |[justadudewhohacks/face-api.js](https://github.com/justadudewhohacks/face-api.js){:target="_blank"}|`face detection`,`computer vision`|2024/01/24|面部识别|
-|[mpetroff/pannellum](https://github.com/mpetroff/pannellum){:target="_blank"}|`image`,`panorama`,`3d`|2024/10/10|根据图片生成全景模式|
+|[mpetroff/pannellum](https://github.com/mpetroff/pannellum){:target="_blank"}|`image`,`panorama`,`3d`|2025/06/07|根据图片生成全景模式|
 |[DIYgod/DPlayer](https://github.com/DIYgod/DPlayer){:target="_blank"}|`video player`,`media`|2025/05/16|视频播放器。可以实现弹幕功能|
 |[videojs/video.js](https://github.com/videojs/video.js){:target="_blank"}|`video player`,`media`|2025/04/28|视频播放器|
 |[sampotts/plyr](https://github.com/sampotts/plyr){:target="_blank"}|`video player`,`media`|2024/06/29|视频播放器|
@@ -73,11 +73,11 @@ published: true
 |[openlayers/openlayers](https://github.com/openlayers/openlayers){:target="_blank"}|`ui`,`maps`|2025/06/05|生成可互动的地图|
 |[Leaflet/Leaflet](https://github.com/Leaflet/Leaflet){:target="_blank"}|`ui`,`maps`|2025/06/06|移动端友好的地图|
 |[jakubfiala/atrament.js](https://github.com/jakubfiala/atrament.js){:target="_blank"}|`ui`,`canvas`,`drawing`|2025/03/03|写字板，画图板|
-|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2025/06/06|写字板，画图板|
+|[excalidraw/excalidraw](https://github.com/excalidraw/excalidraw){:target="_blank"}|`ui`,`canvas`,`drawing`|2025/06/07|写字板，画图板|
 |[cozmo/jsQR](https://github.com/cozmo/jsQR){:target="_blank"}|`image`,`qr code`,`detector`|2023/12/29|二维码识别|
 |[cong-min/TagCloud](https://github.com/cong-min/TagCloud){:target="_blank"}|`ui`,`tagcloud`,`data`|2024/08/15|3d 词云图生成|
-|[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2025/06/06|E2E 测试|
-|[mswjs/msw](https://github.com/mswjs/msw){:target="_blank"}|`mock`,`data`|2025/06/06|Mock 数据生成|
+|[cypress-io/cypress](https://github.com/cypress-io/cypress){:target="_blank"}|`test`,`e2e`|2025/06/07|E2E 测试|
+|[mswjs/msw](https://github.com/mswjs/msw){:target="_blank"}|`mock`,`data`|2025/06/07|Mock 数据生成|
 |[faker-js/faker](https://github.com/faker-js/faker){:target="_blank"}|`mock`,`data`|2025/06/05|Mock 数据生成|
 |[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs){:target="_blank"}|`browser`,`fingerprint`|2025/06/05|用户识别，部分免费|
 
@@ -92,7 +92,7 @@ published: true
 
 |Repository Name|Keywords|Last Updated|Note|
 |-|-|-|-|
-|[vueuse/vueuse](https://github.com/vueuse/vueuse){:target="_blank"}|`tools`,`utilities`|2025/05/27|Vue 的常用工具集合|
+|[vueuse/vueuse](https://github.com/vueuse/vueuse){:target="_blank"}|`tools`,`utilities`|2025/06/07|Vue 的常用工具集合|
 |[antfu/vite-ssg](https://github.com/antfu/vite-ssg){:target="_blank"}|`ssg`,`seo`|2025/05/23|静态页面生成，搜索引擎|
 |[creotip/vue-particles](https://github.com/creotip/vue-particles){:target="_blank"}|`ui`,`animation`,`background`|2024/03/16|粒子背景特效|
 |[SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable){:target="_blank"}|`ui`,`draggable`|2024/03/04|拖动方案|
@@ -100,11 +100,11 @@ published: true
 |[alvarotrigo/vue-fullpage.js](https://github.com/alvarotrigo/vue-fullpage.js){:target="_blank"}|`ui`,`swipe`,`page`|2025/01/19|fullPage.js 的封装|
 |[KABBOUCHI/vue-tippy](https://github.com/KABBOUCHI/vue-tippy){:target="_blank"}|`ui`,`tippy`,`tooltip`|2025/05/22|Tippy.js 的封装|
 |[meteorlxy/vue-showdown](https://github.com/meteorlxy/vue-showdown){:target="_blank"}|`ui`,`markdown`|2025/04/30|Showdown 的封装|
-|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2025/06/06|基于 Material Design 的 UI 组件库|
+|[vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify){:target="_blank"}|`ui`,`component`|2025/06/07|基于 Material Design 的 UI 组件库|
 |[DevCloudFE/vue-devui](https://github.com/DevCloudFE/vue-devui){:target="_blank"}|`ui`,`component`|2025/03/26|基于 DevUI Design 的 UI 组件库|
 |[vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue){:target="_blank"}|`ui`,`component`|2025/06/06|基于 Ant Design 的 UI 组件库|
-|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2025/06/06|基于 Element 的 UI 组件库|
-|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2025/06/05|基于 Vant 的 UI 组件库|
+|[element-plus/element-plus](https://github.com/element-plus/element-plus){:target="_blank"}|`ui`,`component`|2025/06/07|基于 Element 的 UI 组件库|
+|[youzan/vant](https://github.com/youzan/vant){:target="_blank"}|`ui`,`component`|2025/06/06|基于 Vant 的 UI 组件库|
 |[varletjs/varlet](https://github.com/varletjs/varlet){:target="_blank"}|`ui`,`component`,`mobile`|2025/06/02|基于 Material Design 的移动端 UI 组件库|
 |[xiaojieajie/vue3-cute-timeline](https://github.com/xiaojieajie/vue3-cute-timeline){:target="_blank"}|`ui`,`component`,`timeline`|2023/03/06|时间轴组件|
 |[ndelvalle/v-click-outside](https://github.com/ndelvalle/v-click-outside){:target="_blank"}|`user input`,`click`|2023/03/07|点击区域检测|
@@ -116,7 +116,7 @@ published: true
 |-|-|-|-|
 |[KroneCorylus/ngx-colors](https://github.com/KroneCorylus/ngx-colors){:target="_blank"}|`ui`,`color`,`picker`|2025/04/14|颜色选择器|
 |[swimlane/ngx-charts](https://github.com/swimlane/ngx-charts){:target="_blank"}|`ui`,`chart`|2025/05/06|图表生成|
-|[NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd){:target="_blank"}|`ui`,`component`|2025/06/06|基于 Ant Design 的 UI 组件库|
-|[angular/components](https://github.com/angular/components){:target="_blank"}|`ui`,`component`|2025/06/06|基于 Material Design 的 UI 组件库|
+|[NG-ZORRO/ng-zorro-antd](https://github.com/NG-ZORRO/ng-zorro-antd){:target="_blank"}|`ui`,`component`|2025/06/07|基于 Ant Design 的 UI 组件库|
+|[angular/components](https://github.com/angular/components){:target="_blank"}|`ui`,`component`|2025/06/07|基于 Material Design 的 UI 组件库|
 |[ngrx/platform](https://github.com/ngrx/platform){:target="_blank"}|`state`,`store`,`data`|2025/06/06|状态管理，数据共享，存储|
 |[angular/angularfire](https://github.com/angular/angularfire){:target="_blank"}|`firebase`|2025/06/03|Firebase 的封装|
