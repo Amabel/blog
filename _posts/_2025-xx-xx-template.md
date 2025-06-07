@@ -1,6 +1,6 @@
 ---
 title: '标题'
-date: 2024-01-01 10:30:00 +0900
+date: 2025-01-01 10:30:00 +0900
 # categories: ['技术分享']
 # tags: ['']
 # img_path: /assets/images/2022-xx-xx-template/
