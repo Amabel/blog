@@ -45,6 +45,7 @@ brew install --cask notion
 brew install --cask chatgpt
 brew install --cask cursor
 brew install --cask slack
+brew install --cask claude
 ```
 
 ## 3. 安装 CLI 命令
