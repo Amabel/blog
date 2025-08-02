@@ -7,7 +7,7 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/common-utils:1": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,
 			"installOhMyZsh": true,
 			"configureZshAsDefaultShell": true,
@@ -15,7 +15,10 @@
 			"username": "devcontainer",
 			"uid": "1000",
 			"gid": "1000"
-		}
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1": {}
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
