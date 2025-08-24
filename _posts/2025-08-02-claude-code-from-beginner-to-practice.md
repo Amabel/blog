@@ -36,6 +36,17 @@ npm install -g @anthropic-ai/claude-code
 curl -fsSL https://install.anthropic.com | sh
 ```
 
+### 更新版本
+
+保持 Claude Code 为最新版本以获得最佳体验：
+
+```sh
+npm update -g @anthropic-ai/claude-code
+```
+
+> 建议定期检查并更新版本，新版本通常包含性能改进和新功能。
+{: .prompt-tip }
+
 ### 首次使用
 
 ```sh
